@@ -9,6 +9,8 @@ Aplicación simple para encontrar la parada de autobús más cercana en Girona y
 - Devuelve el nombre de la parada, distancia y próximos autobuses.
 - Incluye una interfaz web ligera con Leaflet para mostrar la parada y la ubicación del usuario.
 
+https://hub.docker.com/repository/docker/miquelroca08/app-bus-girona
+
 ## Estructura del proyecto
 
 - `main.py` - servidor FastAPI con endpoints API y frontend.
