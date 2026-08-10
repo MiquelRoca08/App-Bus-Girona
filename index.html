@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Próximo Bus</title>
+
+  <!-- CSS de Leaflet para el minimapa -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
   <style>
     * {
       box-sizing: border-box;
@@ -29,13 +33,49 @@
 
     header {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       margin-top: 10px;
     }
 
     h1 {
       font-size: 1.5rem;
       color: #1a1a1a;
+    }
+
+    /* Tarjeta del Minimapa y Botón Flotante */
+    #map-card {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 16px;
+      background-color: #e5e7eb;
+    }
+
+    .btn-recenter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      background: #ffffff;
+      border: none;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      font-size: 16px;
+      transition: transform 0.1s ease, background-color 0.2s ease;
+    }
+
+    .btn-recenter:active {
+      transform: scale(0.92);
+      background-color: #f0f0f0;
     }
 
     .card {
@@ -132,6 +172,12 @@
       <h1>🚏 Próximo Autobús</h1>
     </header>
 
+    <!-- Minimapa con botón de recentrar -->
+    <div id="map-card">
+      <button class="btn-recenter" onclick="recentrarUbicacion()" title="Recentrar en mi ubicación">🎯</button>
+    </div>
+
+    <!-- Contenido con horarios de la parada -->
     <div id="contenido" class="card">
       <p class="status-text">Obteniendo tu ubicación GPS...</p>
     </div>
@@ -139,12 +185,78 @@
     <button class="btn-actualizar" onclick="buscarAutobuses()">🔄 Actualizar Ubicación</button>
   </div>
 
-  <script>
-    // Si ejecutas el frontend en el mismo servidor FastAPI, usa una ruta relativa:
-    const API_URL = "/api/proxima-parada"; 
-    // Si abres el HTML como archivo independiente, usa la IP de tu CasaOS:
-    // const API_URL = "http://IP_DE_TU_CASAOS:8000/api/proxima-parada";
+  <!-- Librería JavaScript de Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
+  <script>
+    const API_URL = "/api/proxima-parada"; 
+
+    let map = null;
+    let userMarker = null;
+    let stopMarker = null;
+    let lastUserCoords = null;
+
+    // Función para el botón recentrar
+    function recentrarUbicacion() {
+      if (map && lastUserCoords) {
+        map.flyTo(lastUserCoords, 16, { animate: true, duration: 1.0 });
+      } else {
+        alert("Esperando señal GPS...");
+      }
+    }
+
+    // Inicialización y actualización del minimapa
+    function inicializarOActualizarMapa(userLat, userLon, stopLat = null, stopLon = null, stopName = "") {
+      lastUserCoords = [userLat, userLon];
+
+      if (!map) {
+        map = L.map('map-card', {
+          zoomControl: false,
+          attributionControl: false
+        }).setView(lastUserCoords, 16);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+      }
+
+      // Marcador de usuario (Punto azul)
+      if (userMarker) {
+        userMarker.setLatLng(lastUserCoords);
+      } else {
+        userMarker = L.circleMarker(lastUserCoords, {
+          radius: 8,
+          fillColor: '#2563eb',
+          color: '#ffffff',
+          weight: 2,
+          opacity: 1,
+          fillOpacity: 1
+        }).addTo(map).bindPopup('📍 Tu ubicación');
+      }
+
+      // Marcador de parada
+      if (stopLat && stopLon) {
+        const stopCoords = [stopLat, stopLon];
+        if (stopMarker) {
+          stopMarker.setLatLng(stopCoords);
+        } else {
+          stopMarker = L.marker(stopCoords).addTo(map);
+        }
+        stopMarker.bindPopup(`🚏 ${stopName}`);
+
+        // Encuadrar usuario y parada si ambos existen
+        const bounds = L.latLngBounds([lastUserCoords, stopCoords]);
+        map.fitBounds(bounds, { padding: [30, 30] });
+      } else {
+        if (stopMarker) {
+          map.removeLayer(stopMarker);
+          stopMarker = null;
+        }
+        map.setView(lastUserCoords, 16);
+      }
+
+      setTimeout(() => map.invalidateSize(), 100);
+    }
+
+    // Llamada a API y obtención de datos GPS
     function buscarAutobuses() {
       const contenedor = document.getElementById('contenido');
       contenedor.innerHTML = '<p class="status-text">Obteniendo tu ubicación GPS...</p>';
@@ -159,6 +271,7 @@
           const lat = pos.coords.latitude;
           const lon = pos.coords.longitude;
 
+          inicializarOActualizarMapa(lat, lon);
           contenedor.innerHTML = '<p class="status-text">Buscando paradas y horarios cerca...</p>';
 
           try {
@@ -170,7 +283,8 @@
               return;
             }
 
-            // Construir tarjetas de paradas y lista de buses
+            inicializarOActualizarMapa(lat, lon, data.parada.stop_lat, data.parada.stop_lon, data.parada.stop_name);
+
             let htmlBuses = '';
             data.proximos_autobuses.forEach(b => {
               htmlBuses += `
@@ -203,7 +317,6 @@
       );
     }
 
-    // Cargar automáticamente al abrir la página
     window.onload = buscarAutobuses;
   </script>
 </body>

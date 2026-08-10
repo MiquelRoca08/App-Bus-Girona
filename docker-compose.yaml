@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   app-bus-girona:
+    image: miquelroca08/app-bus-girona:v1.2
     build: .
     container_name: app-bus-girona
     restart: unless-stopped

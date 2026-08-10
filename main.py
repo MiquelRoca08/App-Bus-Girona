@@ -8,7 +8,6 @@ import os
 
 app = FastAPI(title="API Transporte Local")
 
-# Permitir peticiones desde cualquier origen (necesario para la PWA)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -16,7 +15,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Rutas a la carpeta ./libs/
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LIBS_DIR = os.path.join(BASE_DIR, "libs")
 
@@ -27,7 +25,6 @@ RUTA_ROUTES = os.path.join(LIBS_DIR, "routes.txt")
 
 
 def haversine(lat1, lon1, lat2, lon2):
-    """Calcula la distancia en metros entre dos puntos GPS."""
     R = 6371000
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     d_phi = math.radians(lat2 - lat1)
@@ -40,12 +37,10 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 def obtener_info_lineas():
-    """Crea un diccionario para mapear trip_id -> nombre de la línea/autobús."""
     rutas = {}
     if os.path.exists(RUTA_ROUTES):
         with open(RUTA_ROUTES, mode='r', encoding='utf-8-sig') as f:
             for row in csv.DictReader(f):
-                # Guarda el nombre corto (ej: "L1") o largo de la línea
                 rutas[row['route_id']] = row.get('route_short_name') or row.get('route_long_name', 'Bus')
 
     viajes_a_linea = {}
@@ -61,7 +56,6 @@ def obtener_info_lineas():
 
 
 def obtener_proximos_horarios(stop_id, limite=5):
-    """Busca las próximas horas de paso para una parada específica sin duplicados."""
     if not os.path.exists(RUTA_STOP_TIMES):
         return []
 
@@ -74,23 +68,19 @@ def obtener_proximos_horarios(stop_id, limite=5):
             if row['stop_id'] == stop_id:
                 hora_paso = row['departure_time']
                 
-                # Descartar horarios nocturnos que superan las 24:00:00 en GTFS
                 if hora_paso >= "24:00:00":
                     continue
 
-                # Filtrar solo autobuses que pasen después de la hora actual
                 if hora_paso >= hora_actual:
                     detalles_viaje = info_viajes.get(row['trip_id'], {'linea': 'Bus', 'destino': ''})
                     horarios.append({
                         'linea': detalles_viaje['linea'],
                         'destino': detalles_viaje['destino'],
-                        'hora': hora_paso[:5]  # Formato HH:MM
+                        'hora': hora_paso[:5]
                     })
 
-    # 1. Ordenar cronológicamente por hora
     horarios.sort(key=lambda x: x['hora'])
 
-    # 2. Filtrar duplicados de calendario
     horarios_unicos = []
     vistos = set()
     for h in horarios:
@@ -99,7 +89,6 @@ def obtener_proximos_horarios(stop_id, limite=5):
             vistos.add(clave)
             horarios_unicos.append(h)
 
-    # 3. Devolver solo el límite especificado
     return horarios_unicos[:limite]
 
 
@@ -109,7 +98,6 @@ def proxima_parada(
     lon: float = Query(..., description="Longitud GPS del móvil"),
     radio: float = Query(100.0, description="Radio de búsqueda en metros")
 ):
-    """Endpoint al que llamará tu PWA enviando el GPS del usuario."""
     if not os.path.exists(RUTA_STOPS):
         return {"error": f"No se encontró stops.txt en {RUTA_STOPS}"}
 
@@ -129,6 +117,8 @@ def proxima_parada(
                 parada_cercana = {
                     'stop_id': row['stop_id'],
                     'stop_name': row['stop_name'],
+                    'stop_lat': s_lat,
+                    'stop_lon': s_lon,
                     'distancia_m': round(dist, 1)
                 }
 
@@ -139,7 +129,6 @@ def proxima_parada(
             "parada_mas_cercana_m": parada_cercana['distancia_m'] if parada_cercana else None
         }
 
-    # Si encontramos parada, calculamos sus próximos buses
     proximos_buses = obtener_proximos_horarios(parada_cercana['stop_id'])
 
     return {
