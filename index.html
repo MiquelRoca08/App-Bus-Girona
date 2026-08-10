@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Próximo Bus</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: #1a1a1a;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 16px;
+    }
+
+    .status-text {
+      font-size: 0.95rem;
+      color: #666;
+      text-align: center;
+    }
+
+    .parada-header {
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+
+    .parada-nombre {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #2c3e50;
+    }
+
+    .parada-distancia {
+      font-size: 0.85rem;
+      color: #7f8c8d;
+      margin-top: 4px;
+    }
+
+    .bus-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #f7f7f7;
+    }
+
+    .bus-item:last-child {
+      border-bottom: none;
+    }
+
+    .badge-linea {
+      background-color: #2563eb;
+      color: white;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .bus-destino {
+      flex: 1;
+      margin: 0 12px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+
+    .bus-hora {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #0f172a;
+    }
+
+    .btn-actualizar {
+      width: 100%;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+    }
+
+    .btn-actualizar:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🚏 Próximo Autobús</h1>
+    </header>
+
+    <div id="contenido" class="card">
+      <p class="status-text">Obteniendo tu ubicación GPS...</p>
+    </div>
+
+    <button class="btn-actualizar" onclick="buscarAutobuses()">🔄 Actualizar Ubicación</button>
+  </div>
+
+  <script>
+    // Si ejecutas el frontend en el mismo servidor FastAPI, usa una ruta relativa:
+    const API_URL = "/api/proxima-parada"; 
+    // Si abres el HTML como archivo independiente, usa la IP de tu CasaOS:
+    // const API_URL = "http://IP_DE_TU_CASAOS:8000/api/proxima-parada";
+
+    function buscarAutobuses() {
+      const contenedor = document.getElementById('contenido');
+      contenedor.innerHTML = '<p class="status-text">Obteniendo tu ubicación GPS...</p>';
+
+      if (!navigator.geolocation) {
+        contenedor.innerHTML = '<p class="status-text" style="color:red;">El GPS no está disponible en este dispositivo.</p>';
+        return;
+      }
+
+      navigator.geolocation.getCurrentPosition(
+        async (pos) => {
+          const lat = pos.coords.latitude;
+          const lon = pos.coords.longitude;
+
+          contenedor.innerHTML = '<p class="status-text">Buscando paradas y horarios cerca...</p>';
+
+          try {
+            const resp = await fetch(`${API_URL}?lat=${lat}&lon=${lon}&radio=100`);
+            const data = await resp.json();
+
+            if (!data.encontrada) {
+              contenedor.innerHTML = `<p class="status-text">${data.mensaje || "No se han encontrado paradas cercanas."}</p>`;
+              return;
+            }
+
+            // Construir tarjetas de paradas y lista de buses
+            let htmlBuses = '';
+            data.proximos_autobuses.forEach(b => {
+              htmlBuses += `
+                <div class="bus-item">
+                  <span class="badge-linea">${b.linea}</span>
+                  <span class="bus-destino">${b.destino || 'Sin destino'}</span>
+                  <span class="bus-hora">${b.hora}</span>
+                </div>
+              `;
+            });
+
+            contenedor.innerHTML = `
+              <div class="parada-header">
+                <div class="parada-nombre">${data.parada.stop_name}</div>
+                <div class="parada-distancia">📍 a ${data.parada.distancia_m} metros de ti</div>
+              </div>
+              <div class="bus-list">
+                ${htmlBuses.length > 0 ? htmlBuses : '<p class="status-text">No hay más salidas programadas para hoy.</p>'}
+              </div>
+            `;
+
+          } catch (err) {
+            contenedor.innerHTML = '<p class="status-text" style="color:red;">Error al conectar con el servidor.</p>';
+          }
+        },
+        (error) => {
+          contenedor.innerHTML = `<p class="status-text" style="color:red;">Error de GPS: ${error.message}</p>`;
+        },
+        { enableHighAccuracy: true, timeout: 10000 }
+      );
+    }
+
+    // Cargar automáticamente al abrir la página
+    window.onload = buscarAutobuses;
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+route_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+L1,L1,Montjuïc - Ramon Folch - Avellaneda,3,FF0000,FFFFFF
+L10,L10,Estació d'autobusos / RENFE - Fornells de la Selva,3,FF8A3C,FFFFFF
+L11,L11,CAP Güell - Pompeu Fabra - CAP Montilivi - UdG-Montilivi,3,2CF10D,000000
+L12,L12,Ramon Folch - Barri Vell - Sant Daniel - Puig d'en Roca,3,B70000,FFFFFF
+L2,L2,Hospital Josep Trueta - Estació d'autobusos / RENFE - Avellaneda,3,FFDC4E,000000
+L5,L5,Germans Sàbat - Ramon Folch  - Sant Narcís - Vilablareix - Aiguaviva,3,1E5AFF,FFFFFF
+L7,L7,Torre Gironella - Can Gibert del Pla,3,FF2AB1,FFFFFF
+L8,L8,Estació d'autobusos / RENFE - UdG Montilivi,3,6F7670,FFFFFF

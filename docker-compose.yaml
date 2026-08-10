@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app-bus-girona:
+    build: .
+    container_name: app-bus-girona
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Montamos la carpeta ./libs para poder actualizar los archivos GTFS sin reconstruir el contenedor
+      - ./libs:/app/libs
+    environment:
+      - TZ=Europe/Madrid

@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_contact_url,feed_lang,feed_start_date,feed_end_date
+TMG,https://www.girona.cat/bus/cat/index.php,https://www.girona.cat/tmg/cat/contacte.php,ca,20230412,20261231

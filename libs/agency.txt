@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+TMG,Transports Municipals del Girones,http://www.girona.cat/bus/cat/index.php,Europe/Madrid,ca,0034972419010

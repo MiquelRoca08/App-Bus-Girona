@@ -1,0 +1,2643 @@
+route_id,service_id,trip_id,trip_headsign,trip_short_name,shape_id,wheelchair_accessible,bikes_allowed
+L10,DisFir,DisFir_1001_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_11,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_13,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_15,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_17,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_19,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_01,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_21,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_23,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_25,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_27,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_29,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_30,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_31,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_03,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_05,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_06,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_07,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DisFir,DisFir_1001_08,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DisFir,DisFir_1001_09,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L11,DisFir,DisFir_1141_10,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_11,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1141_12,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_13,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_14,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_15,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_16,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_17,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_18,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_19,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_1,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_20,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_21,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1141_22,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_23,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1141_24,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_25,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1141_26,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_27,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_28,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_29,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_2,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_3,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_4,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_5,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1141_6,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_7,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1141_8,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1141_9,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1142_10,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_11,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1142_12,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_13,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_14,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_15,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_16,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_17,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_18,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_19,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_1,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_20,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_21,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_22,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_23,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_24,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_25,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_26,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_27,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_28,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_29,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_2,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_3,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_4,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_5,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DisFir,DisFir_1142_6,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_7,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DisFir,DisFir_1142_8,CORREUS,Desti Correus,L11-1F,1,1
+L11,DisFir,DisFir_1142_9,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L1,DisFir,DisFir_1211_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_11,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1211_12,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1211_13,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1211_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1211_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1211_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1211_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DisFir,DisFir_1211_1,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DisFir,DisFir_1211_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1211_21,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1211_22,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_23,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1211_24,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1211_2,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_3,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1211_4,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1211_5,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1211_6,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1211_7,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1211_8,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1211_9,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DisFir,DisFir_1212_10,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1212_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1212_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1212_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1212_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1212_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_17,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1212_18,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1212_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DisFir,DisFir_1212_1,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DisFir,DisFir_1212_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1212_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1212_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1212_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1212_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,DisFir,DisFir_1212_2,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1212_3,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1212_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_5,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1212_6,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1212_7,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1212_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1212_9,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1213_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1213_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1213_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1213_13,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1213_14,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1213_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1213_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1213_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1213_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1213_19,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DisFir,DisFir_1213_1,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DisFir,DisFir_1213_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1213_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1213_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1213_23,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1213_24,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L2,DisFir,DisFir_1213_2,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1213_3,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1213_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1213_5,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1213_6,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1213_7,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1213_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1213_9,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1214_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1214_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1214_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1214_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1214_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1214_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1214_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1214_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1214_18,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1214_19,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1214_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DisFir,DisFir_1214_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1214_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1214_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1214_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1214_24,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DisFir,DisFir_1214_2,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1214_3,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1214_4,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1214_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1214_6,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1214_7,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1214_8,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1214_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1215_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1215_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1215_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1215_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1215_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1215_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1215_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1215_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1215_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1215_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1215_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DisFir,DisFir_1215_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1215_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1215_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1215_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1215_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DisFir,DisFir_1215_2,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DisFir,DisFir_1215_3,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DisFir,DisFir_1215_4,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DisFir,DisFir_1215_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DisFir,DisFir_1215_6,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DisFir,DisFir_1215_7,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DisFir,DisFir_1215_8,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DisFir,DisFir_1215_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L5,DisFir,DisFir_511_10,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_11,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_12,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_13,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_14,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DisFir,DisFir_511_15,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_16,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_17,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_18,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_19,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_1,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_20,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_2,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_3,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_4,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DisFir,DisFir_511_5,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_6,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_7,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_511_8,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_511_9,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_10,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_11,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_14,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_15,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_16,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_17,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_18,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_19,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_1,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DisFir,DisFir_512_20,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_2,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_3,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_4,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_5,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_6,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_7,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_512_8,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_512_9,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_10,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_11,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_14,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_15,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_16,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DisFir,DisFir_513_17,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DisFir,DisFir_513_18,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_19,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_1,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_20,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DisFir,DisFir_513_2,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_3,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_4,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_5,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_6,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DisFir,DisFir_513_7,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DisFir,DisFir_513_8,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DisFir,DisFir_513_9,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L7,DisFir,DisFir_731_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_1,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_2,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_30,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_3,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_4,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_5,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_6,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_7,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_731_8,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_731_9,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_1,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_2,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_3,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_4,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_5,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_6,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_7,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DisFir,DisFir_732_8,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DisFir,DisFir_732_9,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L10,Dissabtes-26,Disab26_1001_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_11,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_13,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_15,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_17,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_19,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_01,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_21,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_23,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_25,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_27,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_29,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_03,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_05,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_06,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_07,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1001_08,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1001_09,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_10,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_11,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_12,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_13,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_14,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_15,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_16,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_17,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_18,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_19,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_01,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_20,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_21,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_22,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_23,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_24,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_25,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_26,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_27,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_28,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_29,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_02,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_03,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_04,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_05,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_06,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_07,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Dissabtes-26,Disab26_1002_08,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Dissabtes-26,Disab26_1002_09,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L11,Dissabtes-26,Disab26_1111_10,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_11,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_12,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_13,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_14,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_15,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_16,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_17,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_18,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_19,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_01,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_20,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_21,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_22,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_23,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_24,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_25,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_26,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_27,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_28,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_29,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_02,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_03,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1111_04,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_05,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_06,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1111_07,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1111_08,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1111_09,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_10,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_11,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1112_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_13,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1112_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_01,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1112_02,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_03,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1112_04,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_05,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Dissabtes-26,Disab26_1112_06,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Dissabtes-26,Disab26_1112_07,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Dissabtes-26,Disab26_1112_08,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Dissabtes-26,Disab26_1112_09,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L1,Dissabtes-26,Disab26_1211_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_13,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1211_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1211_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_01,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1211_21,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1211_22,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_02,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_05,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1211_06,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1211_09,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1212_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1212_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1212_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1212_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1212_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1212_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1212_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1212_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1212_03,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1212_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1212_07,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1212_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1213_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1213_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1213_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1213_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1213_19,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1213_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1213_23,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1213_24,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L1,Dissabtes-26,Disab26_1213_03,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1213_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1213_07,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1213_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1214_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1214_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1214_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_24,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1214_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1214_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1214_08,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1214_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1215_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1215_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1215_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1215_04,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Dissabtes-26,Disab26_1215_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Dissabtes-26,Disab26_1215_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Dissabtes-26,Disab26_1215_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Dissabtes-26,Disab26_1211_11,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1211_12,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1211_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1211_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1211_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1211_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1211_23,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1211_24,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1211_03,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1211_04,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1211_07,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1211_08,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_10,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1212_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1212_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_17,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1212_18,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1212_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1212_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1212_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1212_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_05,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1212_06,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1212_09,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1213_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1213_13,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1213_14,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1213_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1213_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1213_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1213_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1213_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1213_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1213_05,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1213_06,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1213_09,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1214_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1214_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1214_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1214_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1214_18,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1214_19,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1214_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1214_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1214_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1214_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1214_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1214_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1215_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1215_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1215_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1215_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Dissabtes-26,Disab26_1215_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1215_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1215_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1215_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1215_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Dissabtes-26,Disab26_1215_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Dissabtes-26,Disab26_1215_06,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Dissabtes-26,Disab26_1215_07,Avellaneda,Destí Avellaneda,L2-102,1,1
+L5,Dissabtes-26,Disab26_511_10,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_11,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_12,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_13,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_14,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Dissabtes-26,Disab26_511_15,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_16,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_17,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_18,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_19,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_01,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_20,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_02,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_03,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_04,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Dissabtes-26,Disab26_511_05,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_06,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_07,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_511_08,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_511_09,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_17,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_18,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_19,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_01,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Dissabtes-26,Disab26_512_20,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_512_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_512_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_16,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Dissabtes-26,Disab26_513_17,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Dissabtes-26,Disab26_513_18,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_19,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_01,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_20,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Dissabtes-26,Disab26_513_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Dissabtes-26,Disab26_513_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Dissabtes-26,Disab26_513_08,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Dissabtes-26,Disab26_513_09,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L7,Dissabtes-26,Disab26_711_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_30,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_05,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_711_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_711_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_05,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Dissabtes-26,Disab26_712_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Dissabtes-26,Disab26_712_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L10,DS_Flo,DS-Flo1001_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_11,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_13,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_15,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_17,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_19,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_01,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_21,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_23,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_25,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_27,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_29,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_30,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_03,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_5,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_6,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_7,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1001_8,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1001_9,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_10,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_11,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_12,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_13,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_14,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_15,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_16,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_17,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_18,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_19,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_1,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_20,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_21,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_22,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_23,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_24,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_25,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_26,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_27,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_28,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_29,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_2,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_3,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_4,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_5,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_6,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_7,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DS_Flo,DS-Flo1002_8,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DS_Flo,DS-Flo1002_9,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L11,DS_Flo,DS-Flo1111_10,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1111_11,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_12,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1111_13,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_14,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_15,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_16,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_17,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_18,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_19,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_1,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_20,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_21,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_22,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1111_23,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_24,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_25,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_26,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1111_27,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_28,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_29,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_2,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_3,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_4,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_5,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_6,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1111_7,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1111_8,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1111_9,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_10,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_11,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1112_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_13,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1112_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_1,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1112_2,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_3,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1112_4,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_5,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DS_Flo,DS-Flo1112_6,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_7,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DS_Flo,DS-Flo1112_8,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DS_Flo,DS-Flo1112_9,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L1,DS_Flo,DS-Flo1211_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_11,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1211_12,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1211_13,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1211_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1211_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1211_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1211_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DS_Flo,DS-Flo1211_01,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DS_Flo,DS-Flo1211_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1211_21,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1211_22,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_23,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1211_24,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1211_02,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_03,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1211_04,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1211_05,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1211_06,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1211_07,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1211_08,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1211_09,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DS_Flo,DS-Flo1212_10,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1212_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1212_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1212_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1212_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1212_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_17,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1212_18,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1212_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DS_Flo,DS-Flo1212_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DS_Flo,DS-Flo1212_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1212_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1212_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1212_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1212_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,DS_Flo,DS-Flo1212_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1212_03,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1212_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_05,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1212_06,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1212_07,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1212_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1212_09,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1213_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1213_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1213_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1213_13,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1213_14,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1213_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1213_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1213_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1213_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1213_19,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DS_Flo,DS-Flo1213_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DS_Flo,DS-Flo1213_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1213_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1213_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1213_23,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1213_24,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L2,DS_Flo,DS-Flo1213_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1213_03,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1213_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1213_05,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1213_06,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1213_07,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1213_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1213_09,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1214_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1214_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1214_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1214_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1214_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1214_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1214_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1214_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1214_18,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1214_19,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1214_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DS_Flo,DS-Flo1214_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1214_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1214_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1214_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1214_24,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DS_Flo,DS-Flo1214_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1214_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1214_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1214_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1214_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1214_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1214_08,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1214_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1215_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1215_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1215_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1215_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1215_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1215_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1215_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1215_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1215_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1215_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1215_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DS_Flo,DS-Flo1215_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1215_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1215_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1215_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1215_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DS_Flo,DS-Flo1215_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DS_Flo,DS-Flo1215_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DS_Flo,DS-Flo1215_04,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DS_Flo,DS-Flo1215_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DS_Flo,DS-Flo1215_06,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DS_Flo,DS-Flo1215_07,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DS_Flo,DS-Flo1215_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DS_Flo,DS-Flo1215_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L5,DS_Flo,DS-Flo511_10,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_11,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_12,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_13,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_14,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DS_Flo,DS-Flo511_15,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_16,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_17,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_18,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_19,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_01,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_20,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_02,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_03,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_04,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DS_Flo,DS-Flo511_05,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_06,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_07,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo511_08,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo511_09,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_17,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_18,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_19,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_01,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DS_Flo,DS-Flo512_20,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo512_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo512_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_16,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DS_Flo,DS-Flo513_17,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DS_Flo,DS-Flo513_18,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_19,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_01,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_20,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DS_Flo,DS-Flo513_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,DS_Flo,DS-Flo513_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,DS_Flo,DS-Flo513_08,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DS_Flo,DS-Flo513_09,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L7,DS_Flo,DS-Flo711_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_30,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_05,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo711_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo711_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_05,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DS_Flo,DS-Flo722_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DS_Flo,DS-Flo722_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L10,DiuFir,DiuFir_7101_10,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DiuFir,DiuFir_7101_3,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,DiuFir,DiuFir_7101_5,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,DiuFir,DiuFir_7101_8,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L11,DiuFir,DiuFir_1141_10,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_11,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1141_12,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_13,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_14,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_15,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_16,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_17,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_18,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_19,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_1,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_20,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_21,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1141_22,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_23,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1141_24,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_25,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1141_26,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_27,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_28,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_29,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_2,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_3,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_4,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_5,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1141_6,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_7,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1141_8,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1141_9,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1142_10,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_11,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1142_12,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_13,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_14,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_15,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_16,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_17,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_18,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_19,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_1,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_20,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_21,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_22,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_23,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_24,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_25,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_26,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_27,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_28,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_29,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_2,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_3,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_4,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_5,UdG Montilivi,Destí UdG Montilivi,L11-802F,1,1
+L11,DiuFir,DiuFir_1142_6,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_7,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L11,DiuFir,DiuFir_1142_8,CORREUS,Desti Correus,L11-1F,1,1
+L11,DiuFir,DiuFir_1142_9,UdG Montilivi,Destí UdG Montilivi,L11-702F,1,1
+L2,DiuFir,DiuFir_1241_10,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1241_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1241_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1241_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1241_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1241_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1241_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1241_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1241_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1241_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,DiuFir,DiuFir_1241_1,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L1,DiuFir,DiuFir_1241_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1241_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1241_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,DiuFir,DiuFir_1241_2,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1241_3,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1241_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1241_5,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1241_6,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1241_7,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1241_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1241_9,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1242_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1242_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1242_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1242_13,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1242_14,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1242_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1242_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1242_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1242_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1242_19,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DiuFir,DiuFir_1242_1,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DiuFir,DiuFir_1242_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1242_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1242_2,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1242_3,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1242_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1242_5,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1242_6,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1242_7,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1242_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1242_9,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1243_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1243_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1243_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1243_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1243_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1243_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1243_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1243_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1243_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1243_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1243_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DiuFir,DiuFir_1243_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1243_21,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L2,DiuFir,DiuFir_1243_2,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1243_3,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1243_4,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1243_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1243_6,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1243_7,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1243_8,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1243_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1244_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1244_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1244_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1244_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1244_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1244_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1244_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1244_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1244_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1244_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1244_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DiuFir,DiuFir_1244_20,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DiuFir,DiuFir_1244_2,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1244_3,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1244_4,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1244_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1244_6,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1244_7,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1244_8,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1244_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DiuFir,DiuFir_1245_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1245_11,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1245_12,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1245_13,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1245_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1245_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1245_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1245_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,DiuFir,DiuFir_1245_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1245_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,DiuFir,DiuFir_1245_1,Montjuic,Destí Montjuic,L1-301,1,1
+L2,DiuFir,DiuFir_1245_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1245_21,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1245_2,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1245_3,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DiuFir,DiuFir_1245_4,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DiuFir,DiuFir_1245_5,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DiuFir,DiuFir_1245_6,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DiuFir,DiuFir_1245_7,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DiuFir,DiuFir_1245_8,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DiuFir,DiuFir_1245_9,Montjuic,Destí Montjuic,L1-301,1,1
+L5,DiuFir,DiuFir_511_10,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_11,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DiuFir,DiuFir_511_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_14,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_15,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_16,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_17,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_1,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DiuFir,DiuFir_511_2,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_3,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_4,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_5,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_6,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_7,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_511_8,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_511_9,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_10,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_11,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_12,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_13,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_14,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_15,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_16,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_17,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_1,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_2,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_3,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_4,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_5,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_6,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_7,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_512_8,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_512_9,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_10,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_11,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_14,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DiuFir,DiuFir_513_15,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DiuFir,DiuFir_513_16,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_17,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_18,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DiuFir,DiuFir_513_1,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_2,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_3,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_4,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_5,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DiuFir,DiuFir_513_6,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DiuFir,DiuFir_513_7,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,DiuFir,DiuFir_513_8,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DiuFir,DiuFir_513_9,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L7,DiuFir,DiuFir_7101_1,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DiuFir,DiuFir_7101_2,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,DiuFir,DiuFir_7101_4,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L7,DiuFir,DiuFir_7101_6,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DiuFir,DiuFir_7101_7,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,DiuFir,DiuFir_7101_9,Can Gibert del Pla,Destí Can Gibert del Pla,L7-102,1,1
+L11,DG_Flo,DG-Flo_1191_11,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DG_Flo,DG-Flo_1191_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_13,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DG_Flo,DG-Flo_1191_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_15,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DG_Flo,DG-Flo_1191_16,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,DG_Flo,DG-Flo_1191_17,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_18,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_19,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_20,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,DG_Flo,DG-Flo_1191_21,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_22,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_23,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DG_Flo,DG-Flo_1191_24,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_10,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,DG_Flo,DG-Flo_1191_01,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,DG_Flo,DG-Flo_1191_02,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,DG_Flo,DG-Flo_1191_03,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_04,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_05,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_06,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,DG_Flo,DG-Flo_1191_07,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,DG_Flo,DG-Flo_1191_08,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,DG_Flo,DG-Flo_1191_09,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L2,DG_Flo,DG-Flo_1221_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DG_Flo,DG-Flo_1221_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DG_Flo,DG-Flo_1221_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1221_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DG_Flo,DG-Flo_1221_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DG_Flo,DG-Flo_1221_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1221_18,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DG_Flo,DG-Flo_1221_19,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DG_Flo,DG-Flo_1221_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DG_Flo,DG-Flo_1221_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1221_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1221_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1221_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1221_02,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DG_Flo,DG-Flo_1221_03,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DG_Flo,DG-Flo_1221_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1221_06,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,DG_Flo,DG-Flo_1221_07,Avellaneda,Destí Avellaneda,L2-102,1,1
+L1,DG_Flo,DG-Flo_1221_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1221_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1222_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1222_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1222_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1222_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1222_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1222_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1222_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1222_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,DG_Flo,DG-Flo_1222_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1222_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1222_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,DG_Flo,DG-Flo_1222_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1222_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1222_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,DG_Flo,DG-Flo_1222_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,DG_Flo,DG-Flo_1222_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,DG_Flo,DG-Flo_1222_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,DG_Flo,DG-Flo_1222_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L5,DG_Flo,DG-Flo_521_10,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_11,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,DG_Flo,DG-Flo_521_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,DG_Flo,DG-Flo_521_14,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_15,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_16,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_17,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_18,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_19,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_01,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_20,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_21,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_22,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_23,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_24,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,DG_Flo,DG-Flo_521_02,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_03,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_04,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_05,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_06,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_07,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,DG_Flo,DG-Flo_521_08,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,DG_Flo,DG-Flo_521_09,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L7,DG_Flo,DG-Flo_729_10,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_10,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_11,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_11,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_12,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_12,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_13,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_13,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_14,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_14,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_15,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_15,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_16,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_16,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_17,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_17,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_18,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_18,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_19,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_19,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_01,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_01,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_20,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_20,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_21,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_21,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_22,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_22,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_23,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_23,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_24,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_24,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_25,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_25,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_26,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_27,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_28,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_29,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_02,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_02,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_30,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_31,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_32,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_33,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_34,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_35,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_36,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_37,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_38,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_39,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_03,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_03,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_40,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_41,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_42,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_43,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_44,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_45,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_46,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_799_47,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_799_48,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_04,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_04,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_05,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_05,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_06,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_06,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_07,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_07,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L7,DG_Flo,DG-Flo_729_08,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,DG_Flo,DG-Flo_799_08,Poeta Marquina,Destí pl. Poeta Marquina,L7-202,1,1
+L7,DG_Flo,DG-Flo_729_09,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,DG_Flo,DG-Flo_799_09,UdG Les Aligues,Destí Les Àligues,L7-201,1,1
+L10,Feiners-26,Fein26_1001_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_11,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_13,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_15,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_17,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_19,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_01,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_21,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_23,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_25,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_27,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_29,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_30,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_03,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_05,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_06,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_07,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1001_08,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1001_09,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_10,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_11,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_12,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_13,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_14,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_15,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_16,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_17,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_18,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_19,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_01,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_20,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_21,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_22,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_23,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_24,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_25,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_26,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_27,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_28,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_29,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_02,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_03,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_04,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_05,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_06,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_07,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Feiners-26,Fein26_1002_08,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Feiners-26,Fein26_1002_09,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L11,Feiners-26,Fein26_1101_10,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_11,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_12,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_13,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_14,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_15,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_16,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_17,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_18,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_19,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_01,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_20,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_21,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_22,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_23,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_24,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_25,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_26,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_27,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_28,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_29,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_02,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_03,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_04,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_05,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_06,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1101_07,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1101_08,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1101_09,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_10,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_11,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_12,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_13,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_14,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_15,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_16,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1102_17,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_18,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_19,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_01,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_20,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_21,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_22,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_23,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_24,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_25,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_26,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_27,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_28,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1102_29,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_02,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1102_03,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_04,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1102_05,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_06,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_07,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1102_08,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1102_09,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_10,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_11,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1103_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_13,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_15,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_16,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_17,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_18,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_19,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_01,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_20,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_21,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1103_22,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_23,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1103_24,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_25,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1103_26,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_27,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_28,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_29,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_02,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_30,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_03,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_04,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_05,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1103_06,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_07,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1103_08,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1103_09,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_10,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_11,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_13,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_15,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_16,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_17,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_18,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_19,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_01,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_20,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_21,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_22,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_23,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_24,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_25,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_26,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_27,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_28,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_02,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_03,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_04,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_05,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Feiners-26,Fein26_1104_06,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_07,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Feiners-26,Fein26_1104_08,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Feiners-26,Fein26_1104_09,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L12,Feiners-26,Fein26_12001_10,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_11,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_12,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_13,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_14,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_15,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_16,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_17,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_18,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_19,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_01,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_20,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_21,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_22,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_23,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_24,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_25,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_26,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_27,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_28,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_29,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_02,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_30,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_03,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_04,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_05,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_06,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_07,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Feiners-26,Fein26_12001_08,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Feiners-26,Fein26_12001_09,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L1,Feiners-26,Fein26_1201_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_13,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_01,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_21,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_22,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_25,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_26,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L1,Feiners-26,Fein26_1201_02,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_05,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1201_06,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1201_09,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1202_10,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_11,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1202_14,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_15,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1202_18,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_19,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1202_22,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1202_23,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1202_26,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_02,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_03,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1202_06,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1202_07,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1203_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1203_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1203_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1203_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_27,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1203_03,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1203_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1203_07,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1203_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1204_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1204_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_19,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1204_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1204_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_27,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1204_03,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1204_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1204_07,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1204_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1205_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1205_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_19,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1205_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_23,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1205_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_27,Ramon Folch,Destí Av. Ramon Folch,L1-201,1,1
+L1,Feiners-26,Fein26_1205_03,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1205_04,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1205_07,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1205_08,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_24,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_04,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1206_08,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1206_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1207_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1207_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1207_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_24,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1207_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_04,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1207_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1207_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1207_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1208_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1208_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1208_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_24,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1208_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1208_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1208_08,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1208_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1209_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1209_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1209_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Feiners-26,Fein26_1209_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_04,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1209_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1209_08,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1209_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1210_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1210_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1210_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Feiners-26,Fein26_1210_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Feiners-26,Fein26_1210_08,Montjuic,Destí Montjuic,L1-301,1,1
+L2,Feiners-26,Fein26_1201_11,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_12,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1201_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1201_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1201_23,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_24,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1201_03,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_04,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1201_07,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1201_08,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_12,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_13,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_16,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_17,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_01,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_20,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_21,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_24,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_25,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_04,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_05,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1202_08,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1202_09,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_05,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1203_06,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1203_09,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_05,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1204_06,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1204_09,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_01,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_02,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_05,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1205_06,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1205_09,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_26,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_27,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1206_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1206_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_26,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_27,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1207_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1207_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_26,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_27,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1208_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1208_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1209_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1209_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1210_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1210_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Feiners-26,Fein26_1210_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Feiners-26,Fein26_1210_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L5,Feiners-26,Fein26_501_10,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_11,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_501_12,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_13,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_501_14,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_15,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_501_16,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_501_17,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_501_01,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_501_02,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_03,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_501_04,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_05,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_501_06,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_501_07,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_501_08,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_501_09,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_10,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_502_11,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_12,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_13,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_14,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_15,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_502_16,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_17,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_01,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_02,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_502_03,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_04,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_05,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_502_06,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_07,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_502_08,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_502_09,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_10,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_503_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_503_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_13,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_503_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_503_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_17,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_503_18,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,Feiners-26,Fein26_503_01,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Feiners-26,Fein26_503_02,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_503_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_503_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_05,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_503_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_503_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_503_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_504_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_504_12,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_504_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_504_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_15,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_504_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_17,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_504_18,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Feiners-26,Fein26_504_01,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,Feiners-26,Fein26_504_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_03,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_504_04,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_504_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_504_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_07,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_504_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_504_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_505_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_505_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_14,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_505_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_505_17,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_505_01,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_505_02,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_505_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_505_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_06,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_505_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_505_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_505_09,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_506_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_11,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_506_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_506_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_506_16,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_506_01,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_506_02,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_03,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_506_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_05,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_506_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_506_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_506_08,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_506_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_507_10,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_507_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_507_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_13,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_507_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_507_16,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_01,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_507_02,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Feiners-26,Fein26_507_03,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_507_04,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_05,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Feiners-26,Fein26_507_06,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_07,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Feiners-26,Fein26_507_08,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Feiners-26,Fein26_507_09,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L7,Feiners-26,Fein26_701_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_11,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Feiners-26,Fein26_701_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_25,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Feiners-26,Fein26_701_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_30,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-302,1,1
+L7,Feiners-26,Fein26_701_05,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_701_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_701_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_19,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Feiners-26,Fein26_702_01,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_02,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_03,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_04,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_05,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Feiners-26,Fein26_702_06,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_07,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_702_08,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Feiners-26,Fein26_702_09,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Feiners-26,Fein26_703_10,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_11,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_12,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_13,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_14,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_15,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_16,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_17,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_18,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_19,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_01,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_20,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_21,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_22,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_23,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_24,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_25,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_26,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_27,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_28,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_29,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_02,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_30,Marques Camps,Destí Marques de Camps,L7-801M,1,1
+L7,Feiners-26,Fein26_703_03,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_04,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_05,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_06,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_07,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_08,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L7,Feiners-26,Fein26_703_09,Marques Camps - Can Gibert,Can Gibert - Marqués de Camps - Can Gibert,L7-801,1,1
+L8,Feiners-26,Fein26_1210_10,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_1210_01,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_1210_02,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_1210_03,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_1210_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_1210_09,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_11,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_13,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_15,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_17,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_19,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_01,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_21,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_23,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_25,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_27,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_29,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_30,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_31,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_32,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_33,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_34,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_35,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_36,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_37,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_38,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_39,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_03,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_40,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_41,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_42,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_43,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_44,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_45,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_46,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_47,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_48,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_49,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_50,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_51,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_52,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_53,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_54,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_55,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_56,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_05,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_06,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_07,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_801_08,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_801_09,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_802_01,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_802_02,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_802_03,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_802_04,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_802_05,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_802_06,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_802_07,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_803_01,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_803_02,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_803_03,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_803_04,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_803_05,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_803_06,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_803_07,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L8,Feiners-26,Fein26_803_08,UdG Montilivi,Destí UdG Montilivi,L8-602,1,1
+L8,Feiners-26,Fein26_803_09,Estacio Autobusos/RENFE,Destí Estació RENFE,L8-401,1,1
+L10,Agost,Agost_1001_10,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_11,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_12,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_13,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_14,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_15,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_16,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_17,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_18,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_19,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_1,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_20,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_21,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_22,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_23,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_24,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_25,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_26,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_27,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_28,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_29,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_2,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_3,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_4,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_5,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_6,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_7,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1001_8,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1001_9,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_10,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_11,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_12,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_13,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_14,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_15,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_16,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_17,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_18,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_19,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_1,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_20,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_21,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_22,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_23,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_24,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_25,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_26,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_27,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_28,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_29,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_2,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_30,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_3,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_4,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_5,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_6,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_7,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L10,Agost,Agost_1002_8,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
+L10,Agost,Agost_1002_9,Estacio Autobusos/RENFE,Destí Estació RENFE,L10-2,1,1
+L11,Agost,Agost_1121_10,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_11,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_12,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_13,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_14,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_15,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_16,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_17,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_18,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_19,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_1,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_20,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_21,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_22,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_23,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_24,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_25,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_26,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_27,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_28,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_29,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_2,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_3,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_4,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_5,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_6,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1121_7,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1121_8,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1121_9,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_10,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_11,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1122_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_13,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_15,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_16,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_17,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_18,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_19,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_1,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_20,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_21,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1122_22,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_23,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1122_24,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_25,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1122_26,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_27,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_28,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_2,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_3,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_4,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_5,UdG Montilivi,Destí UdG Montilivi,L11-502,1,1
+L11,Agost,Agost_1122_6,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_7,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L11,Agost,Agost_1122_8,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Agost,Agost_1122_9,UdG Montilivi,Destí UdG Montilivi,L11-602,1,1
+L12,Agost,Agost_12001_10,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_11,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_12,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_13,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_14,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_15,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_16,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_17,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_18,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_19,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_1,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_20,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_21,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_22,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_23,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_24,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_25,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_26,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_27,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_28,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_29,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_2,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_30,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_3,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_4,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_5,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_6,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_7,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L12,Agost,Agost_12001_8,Puig d'en Roca,Destí Jutjats - Puig d'en Roca - Jutjats,L12-2,1,1
+L12,Agost,Agost_12001_9,Sant Daniel,Destí Sant Daniel,L12-1,1,1
+L1,Agost,Agost_1211_10,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_11,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1211_12,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_13,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1211_14,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_15,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1211_16,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_17,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1211_18,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_19,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,Agost,Agost_1211_1,Montjuic,Destí Montjuic,L1-301,1,1
+L2,Agost,Agost_1211_20,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_21,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1211_22,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_23,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1211_24,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_2,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_3,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1211_4,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_5,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1211_6,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1211_7,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1211_8,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1211_9,Montjuic,Destí Montjuic,L1-301,1,1
+L2,Agost,Agost_1212_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_11,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1212_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1212_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_15,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1212_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1212_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_19,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,Agost,Agost_1212_1,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,Agost,Agost_1212_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1212_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_23,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1212_24,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_25,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1212_26,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Agost,Agost_1212_2,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_3,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1212_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_5,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1212_6,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1212_7,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1212_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1212_9,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1213_10,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_11,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1213_12,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1213_13,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1213_14,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_15,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1213_16,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1213_17,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1213_18,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_19,Montjuic,Destí Montjuic,L1-301,1,1
+L2,Agost,Agost_1213_1,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L1,Agost,Agost_1213_20,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1213_21,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1213_22,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_23,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,Agost,Agost_1213_2,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_3,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1213_4,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1213_5,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1213_6,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1213_7,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1213_8,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1213_9,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1214_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1214_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_16,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1214_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1214_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Agost,Agost_1214_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1214_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1214_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_24,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1214_25,Ramon Folch,Destí Av. Ramon Folch,L1-202,1,1
+L2,Agost,Agost_1214_2,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_3,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_4,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1214_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1214_6,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1214_7,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1214_8,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1214_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1215_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_12,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1215_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1215_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1215_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1215_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_1,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Agost,Agost_1215_20,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1215_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1215_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L2,Agost,Agost_1215_2,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_3,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_4,Montjuic,Destí Montjuic,L1-301,1,1
+L1,Agost,Agost_1215_5,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Agost,Agost_1215_6,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Agost,Agost_1215_7,Avellaneda,Destí Avellaneda,L2-2,1,1
+L1,Agost,Agost_1215_8,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Agost,Agost_1215_9,Avellaneda,Destí Avellaneda,L1-2,1,1
+L5,Agost,Agost_531_10,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_11,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_12,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_13,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_14,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_15,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_1,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_531_2,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_3,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_4,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_5,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_6,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_7,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_531_8,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_531_9,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_532_10,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_12,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_14,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_15,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_16,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,Agost,Agost_532_1,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Agost,Agost_532_2,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_3,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_4,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_5,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_6,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_7,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_532_8,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_532_9,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_533_10,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_11,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_12,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_13,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_14,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_15,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_1,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_2,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_3,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_4,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_5,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_6,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_7,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_533_8,Rot. GI-533 (HIPRA),Destí Rot. Gi.533 (HIPRA),L5-502,1,1
+L5,Agost,Agost_533_9,Germans Sàbat,Destí Germans Sàbat,L5-301,1,1
+L5,Agost,Agost_534_10,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_11,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_12,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_13,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_14,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_1,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_2,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_3,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_4,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_5,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_6,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_7,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L5,Agost,Agost_534_8,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Agost,Agost_534_9,Germans Sàbat,Destí Germans Sàbat,L5-501,1,1
+L7,Agost,Agost_711_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_11,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Agost,Agost_711_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_19,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_1,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_25,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Agost,Agost_711_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_2,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_30,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_3,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_4,Can Gibert del Pla,Destí Can Gibert del Pla,L7-302,1,1
+L7,Agost,Agost_711_5,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_6,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_7,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_711_8,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_711_9,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_10,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_11,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_12,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_13,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_14,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_15,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_16,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_17,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_18,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_19,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Agost,Agost_722_1,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_20,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_21,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_22,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_23,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_24,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_25,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_26,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_27,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_28,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_29,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_2,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_3,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_4,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_5,Campus Barri Vell - Torre Gironella,Destí Torre Alfons XII - Torre Gironella,L7-401,1,1
+L7,Agost,Agost_722_6,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_7,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L7,Agost,Agost_722_8,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Agost,Agost_722_9,Campus Barri Vell - Torre Gironella,Destí Torre Gironella,L7-101,1,1
+L11,Festius-26,Fest26_1191_10,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Festius-26,Fest26_1191_11,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Festius-26,Fest26_1191_12,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_13,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Festius-26,Fest26_1191_14,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_15,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Festius-26,Fest26_1191_16,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Festius-26,Fest26_1191_17,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_18,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_19,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_01,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Festius-26,Fest26_1191_20,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Festius-26,Fest26_1191_21,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_22,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_23,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L11,Festius-26,Fest26_1191_24,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_02,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Festius-26,Fest26_1191_03,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_04,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_05,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_06,CAP Güell,Destí Sant Daniel - CAP Güell,L11-701,1,1
+L11,Festius-26,Fest26_1191_07,UdG Montilivi,Destí UdG Montilivi,L11-702,1,1
+L11,Festius-26,Fest26_1191_08,CAP Güell,Destí CAP Güell,L11-1,1,1
+L11,Festius-26,Fest26_1191_09,UdG Montilivi,Destí UdG Montilivi,L11-802,1,1
+L1,Festius-26,Fest26_1221_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_24,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_25,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1221_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1221_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_12,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1222_13,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_16,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1222_17,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_01,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_20,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1222_21,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_04,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1222_05,Avellaneda,Destí Avellaneda,L1-2,1,1
+L1,Festius-26,Fest26_1222_08,Montjuïc,Destí Montjuic,L1-1,1,1
+L1,Festius-26,Fest26_1222_09,Avellaneda,Destí Avellaneda,L1-2,1,1
+L2,Festius-26,Fest26_1221_10,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Festius-26,Fest26_1221_11,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Festius-26,Fest26_1221_14,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Festius-26,Fest26_1221_15,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Festius-26,Fest26_1221_18,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Festius-26,Fest26_1221_19,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Festius-26,Fest26_1221_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1221_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1221_02,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Festius-26,Fest26_1221_03,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Festius-26,Fest26_1221_06,Puig d'en Roca,Destí Hospital Josep Trueta i  Puig d'en Roca,L2-101,1,1
+L2,Festius-26,Fest26_1221_07,Avellaneda,Destí Avellaneda,L2-102,1,1
+L2,Festius-26,Fest26_1222_10,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_11,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1222_14,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_15,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1222_18,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_19,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1222_22,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_23,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1222_02,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_03,Avellaneda,Destí Avellaneda,L2-2,1,1
+L2,Festius-26,Fest26_1222_06,Hospital Josep Trueta,Destí Hospital Josep Trueta,L2-1,1,1
+L2,Festius-26,Fest26_1222_07,Avellaneda,Destí Avellaneda,L2-2,1,1
+L5,Festius-26,Fest26_521_10,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_11,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_12,Vilablareix,Destí Vilablareix,L5-402,1,1
+L5,Festius-26,Fest26_521_13,Germans Sàbat,Destí Germans Sàbat,L5-401,1,1
+L5,Festius-26,Fest26_521_14,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_15,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_16,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_17,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_18,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_19,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_01,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_20,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_21,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_22,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_23,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_24,Aiguaviva,Destí Aiguaviva via Vilablareix,L5-302,1,1
+L5,Festius-26,Fest26_521_02,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_03,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_04,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_05,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_06,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_07,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L5,Festius-26,Fest26_521_08,Plaça De Salt,Destí Plaça de Salt,L5-102,1,1
+L5,Festius-26,Fest26_521_09,Germans Sàbat,Destí Germans Sàbat,L5-101,1,1
+L7,Festius-26,Fest26_791_10,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_11,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_12,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_13,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_14,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_15,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_16,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_17,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_18,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_19,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_01,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_20,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_21,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_22,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_23,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_24,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_25,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_26,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_02,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_03,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_04,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_05,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_06,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_07,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L7,Festius-26,Fest26_791_08,Torre Gironella,Destí Torre Gironella,L7-1,1,1
+L7,Festius-26,Fest26_791_09,Can Gibert del Pla,Destí Can Gibert del Pla,L7-2,1,1
+L10,Dissabtes-26,Disab26_1002_30,Fornells De La Selva,Destí Fornells de la Selva,L10-1,1,1
