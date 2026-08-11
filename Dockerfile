@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 # Instalar dependencias necesarias
-RUN pip install --no-cache-dir fastapi uvicorn[standard]
+RUN pip install --no-cache-dir fastapi uvicorn[standard] requests
 
 # Copiar todos los archivos del proyecto al contenedor
 COPY . /app/
