@@ -10,8 +10,10 @@ import math
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+from zoneinfo import ZoneInfo
 import requests
+
+TZ_MADRID = ZoneInfo("Europe/Madrid")
 
 app = FastAPI(title="API Transporte Local")
 
@@ -317,7 +319,7 @@ def _parsear_contingut_tmg(payload):
             if minutos > 240:
                 continue
 
-            llegada = datetime.now() + timedelta(minutes=minutos)
+            llegada = datetime.now(TZ_MADRID) + timedelta(minutes=minutos)
             resultados.append({
                 "minutos": minutos,
                 "hora": llegada.strftime("%H:%M"),
@@ -374,7 +376,7 @@ def _consultar_tmg(linea, stop_id, direccion):
         "linia": str(linea),
         "dir": direccion,
         "codi": str(stop_id),
-        "_": int(datetime.now().timestamp() * 1000),
+        "_": int(datetime.now(TZ_MADRID).timestamp() * 1000),
     }
 
     try:
@@ -502,7 +504,7 @@ def obtener_proximos_horarios(stop_id, limite=5):
         return []
 
     info_viajes = obtener_info_lineas()
-    ahora = datetime.now()
+    ahora = datetime.now(TZ_MADRID)
     hora_actual = ahora.strftime("%H:%M:%S")
     horarios = []
 
