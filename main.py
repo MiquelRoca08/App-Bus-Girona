@@ -631,4 +631,4 @@ def servir_frontend():
 
 
 # Servir archivos estáticos (CSS, JS, assets) desde /static/
-app.mount("/static", StaticFiles(directory=BASE_DIR), name="static")
+app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
