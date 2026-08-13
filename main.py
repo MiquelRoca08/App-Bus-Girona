@@ -462,7 +462,6 @@ def obtener_horarios_tiempo_real(stop_id, limite=5):
                     "minutos": llegada["minutos"],
                     "fuente": "tmg_tiempo_real",
                     "tiempo_real": True,
-                    "direccion": dir_resultado,
                 })
 
     resultados.sort(
@@ -480,7 +479,6 @@ def obtener_horarios_tiempo_real(stop_id, limite=5):
     for item in resultados:
         clave = (
             item["linea"],
-            item["direccion"],
             item["hora"],
             item["minutos"],
         )

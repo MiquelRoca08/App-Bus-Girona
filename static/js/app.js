@@ -33,24 +33,6 @@
     }
 
 
-    function obtenerNombreDireccion(direccion) {
-
-      if (!direccion) {
-        return "";
-      }
-
-      if (direccion === "anada") {
-        return "Ida";
-      }
-
-      if (direccion === "torna") {
-        return "Vuelta";
-      }
-
-      return escaparHTML(direccion);
-    }
-
-
     /* ============================================================
        BOTÓN RECENTRAR
        ============================================================ */
@@ -301,22 +283,6 @@
       }
 
 
-      let direccionHTML = "";
-
-      if (
-        bus.tiempo_real === true &&
-        bus.direccion
-      ) {
-
-        direccionHTML = `
-          <span class="bus-direccion">
-            ${obtenerNombreDireccion(bus.direccion)}
-          </span>
-        `;
-
-      }
-
-
       return `
 
         <div class="bus-item">
@@ -336,8 +302,6 @@
             </span>
 
             ${minutosHTML}
-
-            ${direccionHTML}
 
           </span>
 
