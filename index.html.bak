@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Próximo Bus</title>
+
+  <!-- CSS de Leaflet para el minimapa -->
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 16px;
+      margin-top: 10px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: #1a1a1a;
+    }
+
+    /* =========================
+       MINIMAPA
+       ========================= */
+
+    #map-card {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 16px;
+      background-color: #e5e7eb;
+    }
+
+    .btn-recenter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+
+      background: #ffffff;
+      border: none;
+      border-radius: 50%;
+
+      width: 36px;
+      height: 36px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+
+      cursor: pointer;
+      font-size: 16px;
+
+      transition:
+        transform 0.1s ease,
+        background-color 0.2s ease;
+    }
+
+    .btn-recenter:active {
+      transform: scale(0.92);
+      background-color: #f0f0f0;
+    }
+
+    /* =========================
+       TARJETA PRINCIPAL
+       ========================= */
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px;
+
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+      margin-bottom: 16px;
+    }
+
+    .status-text {
+      font-size: 0.95rem;
+      color: #666;
+      text-align: center;
+    }
+
+    .error-text {
+      color: #dc2626;
+    }
+
+    /* =========================
+       INFORMACIÓN DE LA PARADA
+       ========================= */
+
+    .parada-header {
+      border-bottom: 2px solid #f0f0f0;
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+    }
+
+    .parada-nombre {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #2c3e50;
+    }
+
+    .parada-distancia {
+      font-size: 0.85rem;
+      color: #7f8c8d;
+      margin-top: 4px;
+    }
+
+    /* =========================
+       INDICADOR DE FUENTE
+       ========================= */
+
+    .fuente-horarios {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+
+      padding: 9px 12px;
+      margin-bottom: 8px;
+
+      border-radius: 9px;
+
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .fuente-tiempo-real {
+      background-color: #dcfce7;
+      color: #166534;
+    }
+
+    .fuente-programada {
+      background-color: #f1f5f9;
+      color: #475569;
+    }
+
+    /* =========================
+       AUTOBUSES
+       ========================= */
+
+    .bus-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 12px 0;
+
+      border-bottom: 1px solid #f7f7f7;
+
+      gap: 8px;
+    }
+
+    .bus-item:last-child {
+      border-bottom: none;
+    }
+
+    .badge-linea {
+      background-color: #2563eb;
+      color: white;
+
+      font-weight: bold;
+
+      padding: 6px 12px;
+
+      border-radius: 8px;
+
+      font-size: 0.95rem;
+
+      min-width: 50px;
+
+      text-align: center;
+
+      flex-shrink: 0;
+    }
+
+    .bus-destino {
+      flex: 1;
+
+      margin: 0 4px 0 4px;
+
+      font-weight: 500;
+
+      font-size: 0.95rem;
+
+      color: #334155;
+
+      min-width: 0;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bus-hora-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      flex-shrink: 0;
+    }
+
+    .bus-hora {
+      font-weight: 700;
+
+      font-size: 1.1rem;
+
+      color: #0f172a;
+    }
+
+    .bus-minutos {
+      margin-top: 2px;
+
+      padding: 2px 6px;
+
+      border-radius: 6px;
+
+      background-color: #dcfce7;
+
+      color: #166534;
+
+      font-size: 0.72rem;
+
+      font-weight: 700;
+
+      white-space: nowrap;
+    }
+
+    .bus-direccion {
+      margin-top: 2px;
+
+      font-size: 0.68rem;
+
+      color: #94a3b8;
+
+      text-transform: capitalize;
+    }
+
+    /* =========================
+       BOTÓN ACTUALIZAR
+       ========================= */
+
+    .btn-actualizar {
+      width: 100%;
+
+      background-color: #2563eb;
+
+      color: white;
+
+      border: none;
+
+      padding: 14px;
+
+      border-radius: 12px;
+
+      font-size: 1rem;
+
+      font-weight: 600;
+
+      cursor: pointer;
+
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+
+      transition:
+        transform 0.1s ease,
+        opacity 0.2s ease;
+    }
+
+    .btn-actualizar:active {
+      transform: scale(0.98);
+    }
+
+    .btn-actualizar:disabled {
+      opacity: 0.6;
+      cursor: wait;
+    }
+
+    /* =========================
+       LEAFLET
+       ========================= */
+
+    .leaflet-control-attribution {
+      display: none;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+<header>
+  <h1>🚏 Próximo Autobús</h1>
+</header>
+
+<!-- Minimapa con botón de recentrar -->
+<div id="map-card">
+
+  <button
+    class="btn-recenter"
+    onclick="recentrarUbicacion()"
+    title="Recentrar en mi ubicación"
+    aria-label="Recentrar en mi ubicación"
+  >
+    🎯
+  </button>
+
+</div>
+
+<!-- Contenido con horarios de la parada -->
+<div id="contenido" class="card">
+
+  <p class="status-text">
+    Obteniendo tu ubicación GPS...
+  </p>
+
+</div>
+
+<button
+  id="btn-actualizar"
+  class="btn-actualizar"
+  onclick="buscarAutobuses()"
+>
+  🔄 Actualizar Ubicación
+</button>
+
+  </div>
+
+  <!-- Librería JavaScript de Leaflet -->
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+
+    /* ============================================================
+       CONFIGURACIÓN
+       ============================================================ */
+
+    const API_URL = "/api/proxima-parada";
+
+    const RADIO_BUSQUEDA = 100;
+
+    let map = null;
+
+    let userMarker = null;
+
+    let stopMarker = null;
+
+    let lastUserCoords = null;
+
+
+    /* ============================================================
+       UTILIDADES
+       ============================================================ */
+
+    function escaparHTML(texto) {
+
+      if (texto === null || texto === undefined) {
+        return "";
+      }
+
+      const div = document.createElement("div");
+
+      div.textContent = String(texto);
+
+      return div.innerHTML;
+    }
+
+
+    function obtenerNombreDireccion(direccion) {
+
+      if (!direccion) {
+        return "";
+      }
+
+      if (direccion === "anada") {
+        return "Ida";
+      }
+
+      if (direccion === "torna") {
+        return "Vuelta";
+      }
+
+      return escaparHTML(direccion);
+    }
+
+
+    /* ============================================================
+       BOTÓN RECENTRAR
+       ============================================================ */
+
+    function recentrarUbicacion() {
+
+      if (map && lastUserCoords) {
+
+        map.flyTo(
+          lastUserCoords,
+          16,
+          {
+            animate: true,
+            duration: 1.0
+          }
+        );
+
+      } else {
+
+        alert("Esperando señal GPS...");
+
+      }
+    }
+
+
+    /* ============================================================
+       MAPA
+       ============================================================ */
+
+    function inicializarOActualizarMapa(
+      userLat,
+      userLon,
+      stopLat = null,
+      stopLon = null,
+      stopName = ""
+    ) {
+
+      lastUserCoords = [
+        userLat,
+        userLon
+      ];
+
+
+      /* Crear mapa si todavía no existe */
+
+      if (!map) {
+
+        map = L.map("map-card", {
+
+          zoomControl: false,
+
+          attributionControl: false
+
+        }).setView(
+          lastUserCoords,
+          16
+        );
+
+
+        L.tileLayer(
+          "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          {
+            maxZoom: 19
+          }
+        ).addTo(map);
+
+      }
+
+
+      /* ========================================================
+         MARCADOR DEL USUARIO
+         ======================================================== */
+
+      if (userMarker) {
+
+        userMarker.setLatLng(
+          lastUserCoords
+        );
+
+      } else {
+
+        userMarker = L.circleMarker(
+          lastUserCoords,
+          {
+            radius: 8,
+
+            fillColor: "#2563eb",
+
+            color: "#ffffff",
+
+            weight: 2,
+
+            opacity: 1,
+
+            fillOpacity: 1
+          }
+        )
+        .addTo(map)
+        .bindPopup("📍 Tu ubicación");
+
+      }
+
+
+      /* ========================================================
+         MARCADOR DE LA PARADA
+         ======================================================== */
+
+      if (
+        stopLat !== null &&
+        stopLon !== null &&
+        !Number.isNaN(Number(stopLat)) &&
+        !Number.isNaN(Number(stopLon))
+      ) {
+
+        const stopCoords = [
+          Number(stopLat),
+          Number(stopLon)
+        ];
+
+
+        if (stopMarker) {
+
+          stopMarker.setLatLng(
+            stopCoords
+          );
+
+        } else {
+
+          stopMarker = L.marker(
+            stopCoords
+          ).addTo(map);
+
+        }
+
+
+        stopMarker.bindPopup(
+          `🚏 ${escaparHTML(stopName)}`
+        );
+
+
+        /* Encuadrar usuario y parada */
+
+        const bounds = L.latLngBounds([
+          lastUserCoords,
+          stopCoords
+        ]);
+
+
+        map.fitBounds(
+          bounds,
+          {
+            padding: [30, 30]
+          }
+        );
+
+      } else {
+
+        if (stopMarker) {
+
+          map.removeLayer(
+            stopMarker
+          );
+
+          stopMarker = null;
+
+        }
+
+
+        map.setView(
+          lastUserCoords,
+          16
+        );
+
+      }
+
+
+      /* Leaflet necesita recalcular el tamaño */
+
+      setTimeout(
+        () => map.invalidateSize(),
+        100
+      );
+
+    }
+
+
+    /* ============================================================
+       RENDERIZADO DE AUTOBUSES
+       ============================================================ */
+
+    function generarHTMLAutobus(bus) {
+
+      const linea = escaparHTML(
+        bus.linea || "Bus"
+      );
+
+
+      const destino = escaparHTML(
+        bus.destino || "Sin destino"
+      );
+
+
+      const hora = escaparHTML(
+        bus.hora || "--:--"
+      );
+
+
+      let minutosHTML = "";
+
+      if (
+        bus.tiempo_real === true &&
+        bus.minutos !== null &&
+        bus.minutos !== undefined
+      ) {
+
+        const minutos = Number(
+          bus.minutos
+        );
+
+
+        if (!Number.isNaN(minutos)) {
+
+          let textoMinutos;
+
+          if (minutos <= 0) {
+
+            textoMinutos = "Ahora";
+
+          } else if (minutos === 1) {
+
+            textoMinutos = "1 min";
+
+          } else {
+
+            textoMinutos = `${minutos} min`;
+
+          }
+
+
+          minutosHTML = `
+            <span class="bus-minutos">
+              ${textoMinutos}
+            </span>
+          `;
+
+        }
+
+      }
+
+
+      let direccionHTML = "";
+
+      if (
+        bus.tiempo_real === true &&
+        bus.direccion
+      ) {
+
+        direccionHTML = `
+          <span class="bus-direccion">
+            ${obtenerNombreDireccion(bus.direccion)}
+          </span>
+        `;
+
+      }
+
+
+      return `
+
+        <div class="bus-item">
+
+          <span class="badge-linea">
+            ${linea}
+          </span>
+
+          <span class="bus-destino">
+            ${destino}
+          </span>
+
+          <span class="bus-hora-container">
+
+            <span class="bus-hora">
+              ${hora}
+            </span>
+
+            ${minutosHTML}
+
+            ${direccionHTML}
+
+          </span>
+
+        </div>
+
+      `;
+
+    }
+
+
+    /* ============================================================
+       MOSTRAR RESULTADOS
+       ============================================================ */
+
+    function mostrarResultados(
+      data,
+      lat,
+      lon
+    ) {
+
+      const contenedor =
+        document.getElementById(
+          "contenido"
+        );
+
+
+      /* ========================================================
+         Comprobar parada
+         ======================================================== */
+
+      if (!data.encontrada) {
+
+        contenedor.innerHTML = `
+
+          <p class="status-text">
+
+            ${escaparHTML(
+              data.mensaje ||
+              "No se han encontrado paradas cercanas."
+            )}
+
+          </p>
+
+        `;
+
+        return;
+
+      }
+
+
+      const parada =
+        data.parada;
+
+
+      const autobuses =
+        Array.isArray(
+          data.proximos_autobuses
+        )
+          ? data.proximos_autobuses
+          : [];
+
+
+      /* Actualizar mapa */
+
+      inicializarOActualizarMapa(
+
+        lat,
+
+        lon,
+
+        parada.stop_lat,
+
+        parada.stop_lon,
+
+        parada.stop_name
+
+      );
+
+
+      /* ========================================================
+         Determinar fuente
+         ======================================================== */
+
+      const tiempoReal =
+        data.tiempo_real_disponible === true ||
+        data.fuente_horarios === "tmg_tiempo_real";
+
+
+      let fuenteHTML;
+
+
+      if (tiempoReal) {
+
+        fuenteHTML = `
+
+          <div class="fuente-horarios fuente-tiempo-real">
+
+            🟢
+
+            <span>
+              Horarios en tiempo real
+            </span>
+
+          </div>
+
+        `;
+
+      } else {
+
+        fuenteHTML = `
+
+          <div class="fuente-horarios fuente-programada">
+
+            🕒
+
+            <span>
+              Horarios programados
+            </span>
+
+          </div>
+
+        `;
+
+      }
+
+
+      /* ========================================================
+         Lista de autobuses
+         ======================================================== */
+
+      let htmlBuses = "";
+
+
+      if (autobuses.length > 0) {
+
+        htmlBuses = autobuses
+          .map(generarHTMLAutobus)
+          .join("");
+
+      } else {
+
+        htmlBuses = `
+
+          <p class="status-text">
+
+            No hay autobuses próximos disponibles.
+
+          </p>
+
+        `;
+
+      }
+
+
+      /* ========================================================
+         Renderizar tarjeta
+         ======================================================== */
+
+      contenedor.innerHTML = `
+
+        <div class="parada-header">
+
+          <div class="parada-nombre">
+
+            ${escaparHTML(
+              stop_id | parada.stop_name
+            )}
+
+          </div>
+
+          <div class="parada-distancia">
+
+            📍 a
+            ${escaparHTML(
+              parada.distancia_m
+            )}
+            metros de ti
+
+          </div>
+
+        </div>
+
+
+        ${fuenteHTML}
+
+
+        <div class="bus-list">
+
+          ${htmlBuses}
+
+        </div>
+
+      `;
+
+    }
+
+
+    /* ============================================================
+       BUSCAR AUTOBUSES
+       ============================================================ */
+
+    function buscarAutobuses() {
+
+      const contenedor =
+        document.getElementById(
+          "contenido"
+        );
+
+
+      const boton =
+        document.getElementById(
+          "btn-actualizar"
+        );
+
+
+      /* Estado inicial */
+
+      contenedor.innerHTML = `
+
+        <p class="status-text">
+
+          Obteniendo tu ubicación GPS...
+
+        </p>
+
+      `;
+
+
+      boton.disabled = true;
+
+
+      /* ========================================================
+         Comprobar GPS
+         ======================================================== */
+
+      if (!navigator.geolocation) {
+
+        contenedor.innerHTML = `
+
+          <p class="status-text error-text">
+
+            El GPS no está disponible
+            en este dispositivo.
+
+          </p>
+
+        `;
+
+        boton.disabled = false;
+
+        return;
+
+      }
+
+
+      /* ========================================================
+         Obtener posición
+         ======================================================== */
+
+      navigator.geolocation.getCurrentPosition(
+
+        async (pos) => {
+
+          const lat =
+            pos.coords.latitude;
+
+          const lon =
+            pos.coords.longitude;
+
+
+          /* Mostrar inmediatamente la posición */
+
+          inicializarOActualizarMapa(
+            lat,
+            lon
+          );
+
+
+          contenedor.innerHTML = `
+
+            <p class="status-text">
+
+              Buscando paradas y horarios cerca...
+
+            </p>
+
+          `;
+
+
+          try {
+
+            /* ==================================================
+               Llamada al backend
+               ================================================== */
+
+            const url =
+              `${API_URL}?lat=${encodeURIComponent(lat)}` +
+              `&lon=${encodeURIComponent(lon)}` +
+              `&radio=${RADIO_BUSQUEDA}`;
+
+
+            const resp =
+              await fetch(url);
+
+
+            if (!resp.ok) {
+
+              throw new Error(
+                `HTTP ${resp.status}`
+              );
+
+            }
+
+
+            const data =
+              await resp.json();
+
+
+            /* ==================================================
+               Errores del backend
+               ================================================== */
+
+            if (data.error) {
+
+              throw new Error(
+                data.error
+              );
+
+            }
+
+
+            /* ==================================================
+               Mostrar resultados
+               ================================================== */
+
+            mostrarResultados(
+              data,
+              lat,
+              lon
+            );
+
+
+          } catch (err) {
+
+            console.error(
+              "Error al consultar la API:",
+              err
+            );
+
+
+            contenedor.innerHTML = `
+
+              <p class="status-text error-text">
+
+                ❌ Error al conectar con el servidor.
+
+              </p>
+
+            `;
+
+          } finally {
+
+            boton.disabled = false;
+
+          }
+
+        },
+
+
+        /* ======================================================
+           ERROR GPS
+           ====================================================== */
+
+        (error) => {
+
+          console.error(
+            "Error de GPS:",
+            error
+          );
+
+
+          let mensaje =
+            "No se pudo obtener tu ubicación.";
+
+
+          if (
+            error.code ===
+            error.PERMISSION_DENIED
+          ) {
+
+            mensaje =
+              "Has denegado el acceso a la ubicación.";
+
+          } else if (
+            error.code ===
+            error.POSITION_UNAVAILABLE
+          ) {
+
+            mensaje =
+              "La ubicación no está disponible.";
+
+          } else if (
+            error.code ===
+            error.TIMEOUT
+          ) {
+
+            mensaje =
+              "Se agotó el tiempo esperando al GPS.";
+
+          }
+
+
+          contenedor.innerHTML = `
+
+            <p class="status-text error-text">
+
+              ❌ ${escaparHTML(mensaje)}
+
+            </p>
+
+          `;
+
+
+          boton.disabled = false;
+
+        },
+
+
+        /* ======================================================
+           OPCIONES GPS
+           ====================================================== */
+
+        {
+          enableHighAccuracy: true,
+
+          timeout: 10000,
+
+          maximumAge: 0
+        }
+
+      );
+
+    }
+
+
+    /* ============================================================
+       INICIO
+       ============================================================ */
+
+    window.addEventListener(
+      "load",
+      buscarAutobuses
+    );
+
+  </script>
+
+</body>
+</html>

@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Query
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from datetime import datetime, timedelta
@@ -627,3 +628,7 @@ def proxima_parada(
 @app.get("/")
 def servir_frontend():
     return FileResponse(os.path.join(BASE_DIR, "index.html"))
+
+
+# Servir archivos estáticos (CSS, JS, assets) desde /static/
+app.mount("/static", StaticFiles(directory=BASE_DIR), name="static")
