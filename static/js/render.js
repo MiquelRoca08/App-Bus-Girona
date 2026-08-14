@@ -75,8 +75,7 @@ function generarHTMLAutobus(bus) {
     <div class="bus-item">
 
       <span class="badge-linea" style="background:transparent;padding:0;border:0;box-shadow:none;">
-        <img src="${iconPath}" alt="${lineaId}" class="badge-icon" onerror="(function(){this.style.display='none'; var s=this.nextElementSibling; if(s) s.style.display='inline-block'; }).call(this)"/>
-        <span class="badge-text">${linea}</span>
+        <img src="${iconPath}" alt="${lineaId}" class="badge-icon" onerror="this.style.display='none'"/>
       </span>
 
       <span class="bus-destino">
