@@ -315,6 +315,26 @@
       flex-shrink: 0;
     }
 
+    .badge-linea {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 6px 8px;
+      min-width: 40px;
+    }
+
+    .badge-icon {
+      width: 28px;
+      height: 28px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .badge-text {
+      display: none;
+    }
+
     .bus-destino {
       flex: 1;
 
@@ -422,4 +442,54 @@
 
     .leaflet-control-attribution {
       display: none;
+    }
+
+    /* Footer / About */
+    .footer {
+      width: 100%;
+      max-width: 420px;
+      margin-top: 8px;
+    }
+    .container-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+      padding: 6px 4px;
+    }
+
+    /* Ensure the right-side actions are aligned */
+    .container-footer > div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-about {
+      background: transparent;
+      border: none;
+      color: #2563eb;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 4px;
+      line-height: 1;
+    }
+
+    .btn-about:hover,
+    .btn-about:focus {
+      text-decoration: none;
+      outline: none;
+    }
+
+    .icon-github {
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0px;
+      transform: translateY(0px);
     }

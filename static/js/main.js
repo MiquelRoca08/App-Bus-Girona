@@ -11,18 +11,22 @@ import {
   cerrarPanelConfig,
   guardarPanelConfig,
 } from "./panel-config.js";
+import { abrirAbout, cerrarAbout, actualizarVersion } from "./about.js";
 
 window.recentrarUbicacion = recentrarUbicacion;
 window.buscarAutobuses = buscarAutobuses;
 window.abrirPanelConfig = abrirPanelConfig;
 window.cerrarPanelConfig = cerrarPanelConfig;
+window.abrirAbout = abrirAbout;
+window.cerrarAbout = cerrarAbout;
 
 window.guardarPanelConfig = () => {
   guardarPanelConfig();
   buscarAutobuses();
 };
 
-window.addEventListener(
-  "load",
-  buscarAutobuses
-);
+window.addEventListener("load", () => {
+  // Mostrar versión en el footer y lanzar la búsqueda
+  actualizarVersion();
+  buscarAutobuses();
+});

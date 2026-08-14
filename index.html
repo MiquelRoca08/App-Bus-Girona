@@ -23,7 +23,7 @@
   <div class="container">
 
 <header>
-  <h1>🚏 Próximo Autobús</h1>
+  <h1>🚏 Girona Bus Tracker</h1>
 </header>
 
 <!-- Minimapa con botón de recentrar -->
@@ -117,6 +117,19 @@
   🔄 Actualizar Ubicación
 </button>
 
+<!-- Footer / About -->
+<footer class="footer">
+  <div class="container-footer">
+    <span id="app-version">Versión: —</span>
+    <div>
+      <a class="btn-about" href="https://github.com/MiquelRoca08/Girona-Bus-Tracker" target="_blank" rel="noopener">
+        <img class="icon-github" src="/static/assets/github.svg" alt="GitHub"> GitHub
+      </a>
+      <button class="btn-about" onclick="abrirAbout()">About</button>
+    </div>
+  </div>
+</footer>
+
   </div>
 
   <!-- Librería JavaScript de Leaflet -->
@@ -124,6 +137,19 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
   <script type="module" src="/static/js/main.js"></script>
+
+  <!-- Modal About -->
+  <div id="modal-about" class="modal oculto">
+    <div class="modal-contenido">
+      <h2>Acerca de</h2>
+      <div id="about-content">
+        <p>Cargando información…</p>
+      </div>
+      <div class="modal-botones">
+        <button class="btn-guardar" onclick="cerrarAbout()">Cerrar</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

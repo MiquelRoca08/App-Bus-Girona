@@ -1,16 +1,19 @@
 """Endpoints HTTP: búsqueda de la próxima parada y frontend."""
 
 import os
+import logging
 
 from fastapi import APIRouter, Query
 from fastapi.responses import FileResponse
 
-from app.config import BASE_DIR, RUTA_STOPS
+from app.config import BASE_DIR, RUTA_STOPS, VERSION
 from app.gtfs.horarios import obtener_proximos_horarios
 from app.gtfs.paradas import buscar_paradas_cercanas
+from app.gtfs.loader import cargar_gtfs
 from app.tmg.cliente import obtener_horarios_tiempo_real
 
 router = APIRouter()
+logger = logging.getLogger(__name__)
 
 
 @router.get("/api/proxima-parada")
@@ -22,6 +25,14 @@ def proxima_parada(
         1, ge=1, le=20, description="Número máximo de paradas a devolver"
     ),
 ):
+    logger.info(
+        "/api/proxima-parada called: lat=%s lon=%s radio=%s max_paradas=%s",
+        lat,
+        lon,
+        radio,
+        max_paradas,
+    )
+
     if not os.path.exists(RUTA_STOPS):
         return {"error": f"No se encontró stops.txt en {RUTA_STOPS}"}
 
@@ -72,3 +83,30 @@ def proxima_parada(
 @router.get("/")
 def servir_frontend():
     return FileResponse(os.path.join(BASE_DIR, "index.html"))
+
+
+@router.get("/api/about")
+def about():
+    """Devuelve información sencilla sobre la aplicación."""
+    # Contar paradas
+    num_paradas = 0
+    if os.path.exists(RUTA_STOPS):
+        try:
+            with open(RUTA_STOPS, mode="r", encoding="utf-8-sig") as f:
+                for _ in f:
+                    num_paradas += 1
+            # Substraer la cabecera si existe
+            if num_paradas > 0:
+                num_paradas -= 1
+        except Exception:
+            num_paradas = 0
+
+    # Cargar rutas GTFS
+    _, rutas = cargar_gtfs()
+    num_rutas = len(rutas) if rutas else 0
+
+    return {
+        "version": VERSION,
+        "num_paradas": num_paradas,
+        "num_rutas": num_rutas,
+    }

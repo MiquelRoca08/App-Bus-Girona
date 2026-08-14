@@ -66,12 +66,17 @@ function generarHTMLAutobus(bus) {
   }
 
 
+  // intentar usar un icono SVG para la línea (por ejemplo line-1.svg)
+  const lineaId = linea.replace(/^L/i, "").trim();
+  const iconPath = `/static/assets/line-icons/line-${lineaId}.svg`;
+
   return `
 
     <div class="bus-item">
 
       <span class="badge-linea">
-        ${linea}
+        <img src="${iconPath}" alt="${lineaId}" class="badge-icon" onerror="(function(){this.style.display='none'; var s=this.nextElementSibling; if(s) s.style.display='inline-block'; }).call(this)"/>
+        <span class="badge-text">${linea}</span>
       </span>
 
       <span class="bus-destino">

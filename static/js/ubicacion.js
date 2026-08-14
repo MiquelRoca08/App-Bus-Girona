@@ -114,6 +114,8 @@ export function buscarAutobuses() {
           `&max_paradas=${encodeURIComponent(config.maxParadas)}`;
 
 
+        console.debug("Requesting backend:", url);
+
         const resp =
           await fetch(url);
 
