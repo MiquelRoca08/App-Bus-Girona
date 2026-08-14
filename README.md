@@ -318,20 +318,19 @@ actualizar sin reconstruir la imagen. La variable de entorno
 
 ## 6. Estado del proyecto
 
-| Componente                     | Estado                  |
-|---------------------------------|--------------------------|
-| GPS                              | ✅ Funciona               |
-| Leaflet                           | ✅ Funciona               |
-| Backend FastAPI (modularizado)     | ✅ Funciona               |
-| `/api/proxima-parada`               | ✅ Responde               |
-| Docker                                | ✅ Funciona               |
-| GTFS                                    | ⚠️ En depuración          |
-| API TMG                                   | 🔬 Integrada funcionando  |
-| Tiempo real (X min)                         | 🔬 Pendiente de prueba completa |
-| Fallback HH:MM                                | ✅ Implementado           |
-| Duplicado Ida/Vuelta                            | ✅ Corregido              |
-| Control de frecuencia de peticiones GPS           | ⚠️ Pendiente              |
-| Comparación de retraso GTFS/TMG                     | ⏳ Futuro                 |
+| Componente                                | Estado             |
+|-------------------------------------------|--------------------|
+| GPS                                       | ✅ Funciona        |
+| Leaflet                                   | ✅ Funciona        |
+| Backend FastAPI (modularizado)            | ✅ Funciona        |
+| `/api/proxima-parada`                     | ✅ Funciona        |
+| Docker                                    | ✅ Funciona        |
+| GTFS                                      | ✅ Funciona        |
+| API TMG                                   | ✅ Funciona        |
+| Tiempo real (X min)                       | ✅ Funciona        |
+| Fallback HH:MM                            | ✅ Funciona        |
+| Control de frecuencia de peticiones GPS   | ⚠️ Pendiente       |
+| Comparación de retraso GTFS/TMG           | ⏳ Futuro          |
 
 ---
 
