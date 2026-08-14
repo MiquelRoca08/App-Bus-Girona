@@ -1,318 +1,390 @@
 # Girona Bus Tracker
 
-Aplicación web para localizar la parada de autobús más cercana en Girona y mostrar los próximos horarios, combinando datos GTFS y información en tiempo real del sistema de la ciudad.
+Aplicación web para consultar la próxima salida de autobuses urbanos de
+Girona utilizando la ubicación GPS del usuario, datos GTFS y la
+información de tiempo real proporcionada por TMG.
 
-## Descripción general
+---
 
-Girona Bus Tracker es una pequeña app web pensada para móvil y escritorio que:
+## 1. Descripción general
 
-- obtiene la ubicación del usuario mediante GPS desde el navegador;
-- busca la parada más cercana a esa posición;
-- consulta qué líneas pasan por esa parada;
-- intenta obtener horarios en tiempo real desde el servicio de AppBus de TMG;
-- si el servicio en tiempo real no está disponible, usa un fallback con los horarios programados del GTFS;
-- muestra todo en un mapa sencillo con Leaflet y una lista de próximos autobuses.
+Girona Bus Tracker permite al usuario conocer qué autobús puede coger
+en la parada más cercana a su posición.
 
-La aplicación está diseñada para ser útil en la práctica diaria: si estás en la calle y quieres saber qué autobús llega antes, solo tienes que permitir el acceso a la ubicación y la app te indica la parada más cercana y los próximos horarios.
+El funcionamiento general es:
 
-## Qué hace exactamente
-
-### 1. Geolocalización
-La interfaz web usa la API de geolocalización del navegador para obtener la latitud y la longitud del usuario.
-
-Una vez disponible la ubicación, se envía una petición a la API interna del backend:
-
-- latitud
-- longitud
-- radio de búsqueda (por defecto 100 metros)
-
-### 2. Búsqueda de la parada más cercana
-En el backend, el proyecto lee el fichero GTFS `stops.txt` y calcula la distancia entre la posición del usuario y cada parada disponible usando la fórmula de Haversine.
-
-Se selecciona la parada con mínima distancia dentro del radio configurado.
-
-### 3. Consulta de líneas y destinos
-A partir del identificador de la parada, la app revisa los horarios GTFS y deduce qué líneas pasan por esa parada y qué destinos suelen asociarse a cada una.
-
-Esto sirve para poder mapear cada línea con su destino correcto y hacer una respuesta más útil al usuario.
-
-### 4. Horarios en tiempo real
-La app intenta consultar el servicio de AppBus/TMG de la ciudad a través de una petición HTTP con parámetros como:
-
-- línea
-- dirección (anada/torna)
-- código de la parada
-
-La API parsea la respuesta para extraer tiempos de llegada, por ejemplo:
-
-- `5 min`
-- `12 minuts`
-- `5m`
-- `HH:MM`
-
-Estos tiempos se ordenan y se muestran con formato amigable al usuario.
-
-### 5. Fallback GTFS
-Si el servicio en tiempo real no devuelve información o falla por red o cambios en la respuesta, la app usa los horarios programados desde `stop_times.txt` y `trips.txt`.
-
-Esto asegura que la app siga funcionando aunque la fuente en vivo no responda.
-
-### 6. Mapa y visualización
-La parte frontal usa Leaflet para:
-
-- mostrar la posición del usuario;
-- mostrar la parada seleccionada;
-- ajustar el mapa para ver ambas ubicaciones a la vez;
-- mostrar las líneas con destino, hora y minutos aproximados.
-
-## Arquitectura del proyecto
-
-### Backend
-El servidor principal está en `main.py` y usa FastAPI.
-
-Sus responsabilidades son:
-
-- servir la interfaz web en `/`;
-- montar archivos estáticos en `/static`;
-- exponer la API `/api/proxima-parada`;
-- leer GTFS y calcular la parada más cercana;
-- consultar AppBus/TMG para obtener información en vivo;
-- devolver una respuesta JSON con la parada y los próximos autobuses.
-
-### Frontend
-La interfaz web está compuesta por:
-
-- `index.html`: estructura base de la página;
-- `static/styles.css`: estilos para la app;
-- `static/js/app.js`: lógica del cliente, geolocalización, fetch a la API y renderizado de resultados.
-
-### Datos
-La carpeta `libs/` contiene los archivos GTFS del transporte:
-
-- `stops.txt`: paradas geolocalizadas
-- `stop_times.txt`: horarios de paso por parada
-- `trips.txt`: viajes y relaciones con rutas
-- `routes.txt`: nombre y códigos de las rutas
-- `calendar.txt`, `calendar_dates.txt`, `agency.txt`, `feed_info.txt`, `shapes.txt`: metadatos y datos complementarios del GTFS
-
-## API
-
-### Endpoint principal
-
-`GET /api/proxima-parada`
-
-#### Parámetros
-
-- `lat` (obligatorio): latitud del usuario
-- `lon` (obligatorio): longitud del usuario
-- `radio` (opcional): radio en metros para buscar paradas cercanas. Por defecto `100`
-
-#### Ejemplo
-
-```bash
-curl "http://localhost:8000/api/proxima-parada?lat=41.983112&lon=2.824932&radio=100"
+```
+┌──────────────────────┐
+│   Ubicación GPS       │
+│      usuario          │
+└──────────┬────────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Buscar parada GTFS     │
+│ más cercana            │
+└──────────┬────────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Identificar líneas      │
+│ de la parada            │
+└──────────┬────────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Consultar TMG            │
+│ tiempo real               │
+└──────────┬────────────┘
+           │
+      ┌────┴─────┐
+      │          │
+      ▼          ▼
+  Hay datos   Sin datos
+      │          │
+      ▼          ▼
+    X min       GTFS
+                 │
+                 ▼
+               HH:MM
 ```
 
-#### Respuesta esperada
+La prioridad es siempre **tiempo real de TMG**. Los horarios GTFS se
+utilizan como alternativa cuando TMG no proporciona información.
 
-```json
+> Nota: hasta la v1.6.x la aplicación distinguía entre sentido `anada`
+> (ida) y `torna` (vuelta) por cada parada. Se eliminó esa distinción:
+> en la práctica cada parada física de Girona solo tiene un sentido de
+> circulación real, y consultar ambos sentidos sobre el mismo
+> `stop_id` producía autobuses duplicados en la interfaz.
+
+---
+
+## 2. Arquitectura
+
+El proyecto está dividido en dos partes:
+
+```
+┌───────────────────────────────┐
+│          Navegador            │
+│                               │
+│         index.html            │
+│                               │
+│  GPS + Leaflet + interfaz JS  │
+│      (módulos ES6)            │
+└──────────────┬────────────────┘
+               │ HTTP
+               ▼
+┌──────────────────────────────┐
+│        FastAPI / Uvicorn     │
+│                              │
+│   main.py + paquete app/     │
+└──────────────┬───────────────┘
+               │
+       ┌───────┴────────┐
+       │                │
+       ▼                ▼
+┌────────────┐   ┌──────────────┐
+│    GTFS    │   │     TMG      │
+│            │   │ AppBus API   │
+│ libs/*.txt │   │              │
+└────────────┘   └──────────────┘
+```
+
+### 2.1 Backend: `main.py` + `app/`
+
+El backend está modularizado por responsabilidad. `main.py` solo crea
+la aplicación FastAPI, registra el middleware CORS, incluye el router
+de la API y monta `/static`:
+
+```
+main.py
+app/
+├── config.py           # Rutas de archivos, constantes, timezone, logger
+├── utils/
+│   └── geo.py            # Distancia Haversine
+├── gtfs/
+│   ├── loader.py           # Carga y caché de routes.txt / trips.txt
+│   ├── paradas.py           # Destinos y líneas por parada, parada más cercana
+│   └── horarios.py           # Fallback a horarios programados GTFS
+├── tmg/
+│   ├── parser.py             # Parseo del HTML/JSON que devuelve AppBus
+│   └── cliente.py             # Sesión HTTP + consulta combinada por parada
+└── rutas/
+    └── api.py                  # Endpoints HTTP (APIRouter)
+```
+
+### 2.2 Frontend: `index.html` + `static/js/`
+
+El frontend usa módulos ES6 nativos (`<script type="module">`), sin
+bundler ni build step:
+
+```
+static/
+├── styles.css
+└── js/
+    ├── main.js           # Punto de entrada: registra listeners y expone
+    │                       funciones en window para los onclick del HTML
+    ├── utils.js          # escaparHTML
+    ├── mapa.js           # Estado y control del minimapa Leaflet
+    ├── render.js         # Construcción del HTML de resultados
+    └── ubicacion.js      # GPS + fetch al backend
+```
+
+Dependencias externas: **Leaflet** (mapa) y la **Geolocation API** del
+navegador. No hay `npm`, `package.json` ni proceso de build: los
+módulos se sirven tal cual desde `/static/js/`.
+
+---
+
+## 3. Backend en detalle
+
+### 3.1 Obtener ubicación (frontend)
+
+`static/js/ubicacion.js` usa:
+
+```js
+navigator.geolocation.getCurrentPosition(callback, errorCallback, {
+  enableHighAccuracy: true,
+  timeout: 10000,
+  maximumAge: 0,
+});
+```
+
+### 3.2 Mapa (frontend)
+
+`static/js/mapa.js` usa Leaflet para mostrar la posición del usuario,
+la parada detectada y el mapa de OpenStreetMap. El botón 🎯
+(`recentrarUbicacion`) vuelve a centrar el mapa en la posición actual.
+
+### 3.3 API interna
+
+```
+GET /api/proxima-parada
+```
+
+| Parámetro | Descripción                        |
+|-----------|-------------------------------------|
+| `lat`     | Latitud del usuario                  |
+| `lon`     | Longitud del usuario                  |
+| `radio`   | Radio máximo de búsqueda, en metros    |
+
+Ejemplo:
+
+```
+/api/proxima-parada?lat=41.97909563627919&lon=2.8179344907402992&radio=100
+```
+
+La búsqueda de la parada más cercana usa la distancia **Haversine**
+(`app/utils/geo.py`) contra todas las filas de `libs/stops.txt`
+(`app/gtfs/paradas.py :: buscar_parada_cercana`), y descarta el
+resultado si supera el `radio` indicado.
+
+### 3.4 Sistema GTFS
+
+`app/gtfs/loader.py` carga y cachea en memoria, una sola vez por
+proceso, `routes.txt` y `trips.txt`:
+
+```
+libs/
+├── stops.txt
+├── routes.txt
+├── trips.txt
+├── stop_times.txt
+├── calendar.txt
+└── ...
+```
+
+`stops.txt` contiene, entre otros campos: `stop_id`, `stop_name`,
+`stop_lat`, `stop_lon`. Parada usada como referencia en pruebas:
+
+```
+15040
+Estació d'Autobusos / RENFE
+41.9791062170036
+2.81791852377473
+```
+
+### 3.5 Integración con TMG (AppBus)
+
+`app/tmg/cliente.py` consulta el endpoint interno que usa la web de
+AppBus de TMG:
+
+```
+https://web2.girona.cat/appbus/cat/busos_json.php
+```
+
+Ejemplo real observado:
+
+```
+https://web2.girona.cat/appbus/cat/busos_json.php?linia=1&dir=anada&codi=15014&_=1786392261197
+```
+
+Parámetros relevantes:
+
+- `linia` — identifica la línea (p. ej. `1`).
+- `dir` — sentido de circulación (`anada` o `torna`); se sigue
+  consultando internamente para cubrir ambos casos, pero el resultado
+  ya **no** se etiqueta ni se muestra en la interfaz (ver sección 1).
+- `codi` — identifica la parada (`stop_id`).
+- `_` — cache-buster con timestamp; no aporta información.
+
+`app/tmg/parser.py` extrae del HTML embebido en la respuesta JSON
+tanto tiempos relativos (`5 min`, `12 minuts`, `5'`) como horas
+absolutas (`HH:MM`), soportando pequeñas variaciones de formato.
+
+### 3.6 Prioridad de datos
+
+```
+1. TMG tiempo real
+       │
+       ├── disponible → mostrar X min
+       │
+       └── no disponible
+                 │
+                 ▼
+2. GTFS
+       │
+       └── mostrar HH:MM
+```
+
+Si TMG falla (timeout, error de red, o devuelve
+`"sense informació"`), la aplicación no queda inutilizable: recurre
+automáticamente a `app/gtfs/horarios.py`, que calcula los próximos
+horarios programados a partir de `stop_times.txt`.
+
+### 3.7 Respuesta del backend
+
+```jsonc
 {
   "encontrada": true,
   "parada": {
-    "stop_id": "1234",
-    "stop_name": "Plaça de la Independència",
-    "stop_lat": 41.9831,
-    "stop_lon": 2.8249,
-    "distancia_m": 42.8
+    "stop_id": "15040",
+    "stop_name": "Estació d'Autobusos / RENFE",
+    "stop_lat": 41.9791062170036,
+    "stop_lon": 2.81791852377473,
+    "distancia_m": 0.0
   },
   "proximos_autobuses": [
     {
-      "linea": "L1",
-      "destino": "Montjuïc",
-      "hora": "18:42",
-      "minutos": 5,
-      "fuente": "tmg_tiempo_real",
-      "tiempo_real": true
+      "linea": "L2",
+      "destino": "Avellaneda",
+      "hora": "11:10",
+      "minutos": null,
+      "fuente": "gtfs",
+      "tiempo_real": false
     }
   ],
-  "fuente_horarios": "tmg_tiempo_real",
-  "tiempo_real_disponible": true
+  "fuente_horarios": "gtfs",
+  "tiempo_real_disponible": false
 }
 ```
 
-Si no se encuentra ninguna parada dentro del radio configurado, la API devuelve algo como:
+---
 
-```json
-{
-  "encontrada": false,
-  "mensaje": "No hay paradas a menos de 100m",
-  "parada_mas_cercana_m": 154.2
-}
-```
-
-## Cómo funciona el flujo completo
-
-1. El navegador pide permiso para acceder a la geolocalización.
-2. Se obtiene latitud/longitud del usuario.
-3. El frontend llama a `GET /api/proxima-parada` con esos datos.
-4. El backend lee el GTFS y calcula la parada más cercana.
-5. El backend consulta AppBus/TMG para obtener llegadas reales.
-6. Si no hay tiempo real, usa el GTFS programado.
-7. El frontend recibe el JSON y renderiza:
-   - nombre de la parada;
-   - distancia a la parada;
-   - fuente de horarios (real o programada);
-   - mapa con ubicaciones;
-   - lista de autobuses.
-
-## Estructura del repositorio
-
-```text
-.
-├── main.py                 # API FastAPI + lógica del backend
-├── index.html              # página principal de la app
-├── buscar_parada.py        # script auxiliar para buscar parada a mano
-├── Dockerfile              # imagen Docker de la app
-├── docker-compose.yaml     # ejecución con Docker Compose
-├── static/
-│   ├── styles.css          # estilos de la interfaz
-│   └── js/
-│       └── app.js          # lógica del frontend
-├── libs/
-│   ├── agency.txt
-│   ├── calendar.txt
-│   ├── calendar_dates.txt
-│   ├── feed_info.txt
-│   ├── routes.txt
-│   ├── shapes.txt
-│   ├── stops.txt
-│   ├── stop_times.txt
-│   └── trips.txt
-├── README.md               # documentación del proyecto
-└── .gitignore              # archivos excluidos del control de versiones
-```
-
-## Requisitos
-
-### Localmente
-
-- Python 3.11+
-- FastAPI
-- Uvicorn
-- Requests
-- Datos GTFS en `libs/`
-
-### Docker
-
-- Docker
-- Docker Compose
-
-## Instalación local
-
-1. Clona el repositorio:
+## 4. Ejecución local (sin Docker)
 
 ```bash
-git clone https://github.com/MiquelRoca08/Girona-Bus-Tracker.git
-cd Girona-Bus-Tracker
+pip install fastapi "uvicorn[standard]" requests
+uvicorn main:app --reload --port 8000
 ```
 
-2. Crea un entorno virtual:
+La app queda disponible en `http://localhost:8000`. Asegúrate de que
+la carpeta `libs/` con los archivos GTFS está presente en la raíz del
+proyecto, al mismo nivel que `main.py`.
+
+---
+
+## 5. Despliegue con Docker
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+docker-compose down
+docker-compose build --no-cache
+docker-compose up -d
 ```
 
-3. Instala las dependencias:
+`docker-compose.yaml` monta `./libs` como volumen
+(`./libs:/app/libs`), de modo que los archivos GTFS se pueden
+actualizar sin reconstruir la imagen. La variable de entorno
+`TMG_DEBUG=1` activa logs detallados de cada consulta a TMG
+(`logger.info` en `app/tmg/cliente.py`).
 
-```bash
-pip install fastapi uvicorn[standard] requests
+| Variable    | Descripción                                  | Por defecto      |
+|-------------|-----------------------------------------------|------------------|
+| `TMG_DEBUG` | Activa logs detallados de las consultas a TMG   | `0` (desactivado) |
+| `TZ`        | Zona horaria del contenedor                      | —                 |
+
+---
+
+## 6. Estado del proyecto
+
+| Componente                     | Estado                  |
+|---------------------------------|--------------------------|
+| GPS                              | ✅ Funciona               |
+| Leaflet                           | ✅ Funciona               |
+| Backend FastAPI (modularizado)     | ✅ Funciona               |
+| `/api/proxima-parada`               | ✅ Responde               |
+| Docker                                | ✅ Funciona               |
+| GTFS                                    | ⚠️ En depuración          |
+| API TMG                                   | 🔬 Integrada funcionando  |
+| Tiempo real (X min)                         | 🔬 Pendiente de prueba completa |
+| Fallback HH:MM                                | ✅ Implementado           |
+| Duplicado Ida/Vuelta                            | ✅ Corregido              |
+| Control de frecuencia de peticiones GPS           | ⚠️ Pendiente              |
+| Comparación de retraso GTFS/TMG                     | ⏳ Futuro                 |
+
+---
+
+## 7. Notas conocidas / mejoras futuras
+
+- **Peticiones GPS excesivas**: el frontend puede lanzar muchas
+  consultas al backend mientras el usuario se desplaza, incluso con
+  coordenadas repetidas. Mejora prevista: separar la actualización de
+  GPS (frecuente) de la consulta de autobuses (solo si el usuario se
+  ha desplazado lo suficiente, p. ej. 50 m / 10 s de cooldown).
+- **Mostrar horario oficial (PDF / web)** además del calculado.
+- **Radio de detección y número de paradas configurables** por el
+  usuario.
+- **Buscador de paradas.**
+- **Colores de línea** (assets).
+- **Mapa general de todas las líneas.**
+- **Click en una parada del mapa** para ver sus horarios directamente.
+- **Comparar GTFS vs TMG** para detectar y mostrar retrasos
+  (`08:10 → 08:13, +3 min`).
+
+Estas features requieren backend (parsing GTFS más extenso, más
+paradas/ciudades, caché), por lo que la arquitectura actual
+(Python/FastAPI en el servidor + JS en el navegador) se mantiene: no
+está prevista una migración completa a JavaScript.
+
+---
+
+## 8. Reglas de negocio a conservar
+
+```
+¿Parada encontrada?
+                           │
+                    ┌──────┴──────┐
+                    │             │
+                   NO            SÍ
+                    │             │
+                 error       buscar líneas
+                                  │
+                                  ▼
+                         consultar TMG
+                                  │
+                           ┌──────┴──────┐
+                           │             │
+                      información    sin información
+                           │             │
+                           ▼             ▼
+                         X min          GTFS
+                                         │
+                                         ▼
+                                       HH:MM
 ```
 
-4. Asegúrate de que en la carpeta `libs/` existen los archivos GTFS necesarios.
-
-5. Ejecuta la app:
-
-```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
-
-6. Abre en el navegador:
-
-```text
-http://localhost:8000
-```
-
-## Ejecución con Docker
-
-### Opción 1: Docker Compose
-
-```bash
-docker compose up --build
-```
-
-Esto levantará la aplicación en:
-
-```text
-http://localhost:8000
-```
-
-El archivo `docker-compose.yaml` monta la carpeta `libs` del proyecto dentro del contenedor para poder actualizar los datos GTFS sin reconstruir la imagen completa.
-
-### Opción 2: construir la imagen manualmente
-
-```bash
-docker build -t girona-bus-tracker .
-docker run -p 8000:8000 --name girona-bus-tracker girona-bus-tracker
-```
-
-## Variables de entorno
-
-La app usa estas variables:
-
-- `TMG_DEBUG=1`: activa logs de depuración para consultar el servicio AppBus/TMG
-- `TZ=Europe/Madrid`: configura la zona horaria para cálculos de hora local
-
-## Dependencias clave
-
-- `fastapi`: servidor API
-- `uvicorn`: servidor ASGI
-- `requests`: peticiones HTTP al servicio de AppBus
-- `csv`: lectura de archivos GTFS
-- `Leaflet`: mapa interactivo en el navegador
-
-## Casos de uso
-
-La app es útil para:
-
-- ver qué autobús está más cerca de ti;
-- consultar la próxima parada en una zona desconocida;
-- identificar rápidamente la línea adecuada en Girona;
-- comprobar horarios reales cuando la información de la ciudad está disponible;
-- usar la app desde un móvil con geolocalización.
-
-## Limitaciones y consideraciones
-
-- La app depende de que el archivo `libs/stops.txt` exista y esté bien formateado.
-- Si los datos de AppBus cambian su estructura HTML o JSON, puede requerir ajustes en el parser.
-- La precisión del cálculo depende de la calidad y disponibilidad del GPS del dispositivo.
-- El servicio en tiempo real puede fallar si la API externa deja de responder o cambia la respuesta.
-- La app está pensada para uso local o en un entorno de despliegue sencillo, no como sistema de transporte empresarial completo.
-
-## Solución de problemas
-
-### Error: no se encontró `stops.txt`
-Asegúrate de que la carpeta `libs` existe y contiene los archivos GTFS válidos.
-
-### La app no muestra horarios
-Comprueba si hay conexión a internet y si el servicio AppBus responde correctamente.
-
-### El GPS no funciona
-Verifica que el navegador tiene permiso para acceder a la ubicación y que el dispositivo tiene señal GPS.
-
-### La app no carga en Docker
-Revisa que el puerto 8000 esté libre y que los volúmenes de `libs` estén montados correctamente.
-
-## Licencia
-
-Este proyecto se distribuye con fines educativos y de uso personal. Si quieres reutilizarlo en producción o adaptarlo a un entorno real, conviene revisar las condiciones del uso de los datos de transporte y del servicio externo.
+**En una frase:** Girona Bus Tracker detecta la parada más cercana
+mediante GTFS y utiliza la API interna de AppBus de TMG para mostrar
+el tiempo real en minutos; cuando TMG no proporciona datos, recurre a
+los horarios programados GTFS en formato HH:MM.
