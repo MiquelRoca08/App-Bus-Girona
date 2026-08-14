@@ -13,30 +13,11 @@ import {
 } from "./panel-config.js";
 import { abrirAbout, cerrarAbout, actualizarVersion } from "./about.js";
 
-// Intento de cache-bust para CSS en despliegues donde el fichero está cacheado
-(async function bustCssCache() {
-  try {
-    const resp = await fetch("/api/about", { cache: "no-store" });
-    if (!resp.ok) return;
-    const data = await resp.json();
-    const v = encodeURIComponent(data.version || Date.now());
-    const links = document.querySelectorAll('link[rel="stylesheet"]');
-    // fallback selector if above returns none
-    const cssLinks = links.length ? links : document.querySelectorAll('link[rel="stylesheet"][href*="styles.css"]');
-    cssLinks.forEach((l) => {
-      try {
-        const href = l.getAttribute("href") || l.href;
-        const url = new URL(href, location.href);
-        url.searchParams.set("v", v);
-        l.setAttribute("href", url.toString());
-      } catch (err) {
-        // ignore
-      }
-    });
-  } catch (err) {
-    console.debug("No se pudo cache-bustear CSS:", err);
-  }
-})();
+// Nota: el chequeo de versión y el auto-reset ante una versión nueva del
+// servidor viven ahora en un <script> al principio de <head> en index.html
+// (se ejecuta antes de cargar este módulo), combinado con cabeceras
+// Cache-Control en el servidor. Ya no hace falta cache-bustear el CSS aquí
+// a mano.
 
 window.recentrarUbicacion = recentrarUbicacion;
 window.buscarAutobuses = buscarAutobuses;
