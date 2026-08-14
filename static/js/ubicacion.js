@@ -447,35 +447,81 @@ export function buscarAutobuses() {
     });
 
     document.getElementById("modal-abrir-ajustes").addEventListener("click", () => {
-      // Intentar abrir páginas de configuración conocidas. No funciona en todos los navegadores.
-      const openTargets = [
-        'chrome://settings/content/siteDetails?search=' + encodeURIComponent(location.hostname),
-        'chrome://settings/content/location',
-        'about:preferences#privacy'
-      ];
+      const browser = detectarNavegador();
+      const openTargets = obtenerUrlsAjustesUbicacion(browser, location.hostname);
 
       let opened = false;
 
-      for (const t of openTargets) {
+      for (const url of openTargets) {
         try {
-          const w = window.open(t, '_blank');
-          if (w) opened = true;
+          const w = window.open(url, '_blank', 'noopener,noreferrer');
+          if (w) {
+            opened = true;
+            break;
+          }
         } catch (e) {
-          console.warn('No se pudo abrir', t, e);
+          console.warn('No se pudo abrir', url, e);
         }
       }
 
       if (!opened) {
-        alert('No se pudo abrir la página de ajustes automáticamente. Por favor, usa el candado en la barra de direcciones y cambia el permiso de ubicación.');
+        alert('No se pudo abrir automáticamente la configuración del navegador. Usa el candado de la barra de direcciones y activa la ubicación, o revisa la configuración de permisos del sitio.');
       }
-
     });
+
+    function detectarNavegador() {
+      const ua = navigator.userAgent.toLowerCase();
+
+      if (ua.includes('brave')) return 'brave';
+      if (ua.includes('edg')) return 'edge';
+      if (ua.includes('firefox')) return 'firefox';
+      if (ua.includes('safari') && !ua.includes('chrome')) return 'safari';
+      if (ua.includes('chrome')) return 'chrome';
+
+      return 'generic';
+    }
+
+    function obtenerUrlsAjustesUbicacion(browser, host) {
+      const hostParam = encodeURIComponent(host);
+
+      const urlsPorNavegador = {
+        brave: [
+          `brave://settings/content/siteDetails?search=${hostParam}`,
+          'brave://settings/content/location',
+          `chrome://settings/content/siteDetails?search=${hostParam}`,
+          'chrome://settings/content/location',
+          'https://support.brave.com/hc/en-us/articles/360034841871-How-do-I-change-site-settings-permissions-in-Brave'
+        ],
+        chrome: [
+          `chrome://settings/content/siteDetails?search=${hostParam}`,
+          'chrome://settings/content/location',
+          'https://support.google.com/chrome/answer/142065'
+        ],
+        edge: [
+          `edge://settings/content/siteDetails?search=${hostParam}`,
+          'edge://settings/content/location',
+          'https://support.microsoft.com/en-us/microsoft-edge/allow-or-block-location-access-for-sites-in-microsoft-edge-01c0d5f7-0ae9-5d7d-2d7f-5d5c8d2a0c82'
+        ],
+        firefox: [
+          'about:preferences#privacy',
+          'https://support.mozilla.org/en-US/kb/permission-request-messages-firefox'
+        ],
+        safari: [
+          'x-apple.systempreferences:com.apple.preference.security?Privacy_LocationServices',
+          'https://support.apple.com/guide/safari/allow-or-block-website-access-to-location-information-sfri34030/mac'
+        ],
+        generic: [
+          'https://www.google.com/search?q=' + encodeURIComponent('how to enable location permissions in browser')
+        ]
+      };
+
+      return urlsPorNavegador[browser] || urlsPorNavegador.generic;
+    }
 
     // Cerrar modal al pulsar fuera del contenido
     modal.addEventListener('click', (ev) => {
       if (ev.target === modal) modal.remove();
     });
-    document.body.appendChild(modal);
 
   }
 }
