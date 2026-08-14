@@ -7,7 +7,7 @@ import { escaparHTML } from "./utils.js";
 
 let map = null;
 let userMarker = null;
-let stopMarker = null;
+let stopMarkers = [];
 let lastUserCoords = null;
 
 
@@ -36,9 +36,7 @@ export function recentrarUbicacion() {
 export function inicializarOActualizarMapa(
   userLat,
   userLon,
-  stopLat = null,
-  stopLon = null,
-  stopName = ""
+  paradas = []
 ) {
 
   lastUserCoords = [
@@ -108,48 +106,63 @@ export function inicializarOActualizarMapa(
 
 
   /* ========================================================
-     MARCADOR DE LA PARADA
+     MARCADORES DE LAS PARADAS
      ======================================================== */
 
-  if (
-    stopLat !== null &&
-    stopLon !== null &&
-    !Number.isNaN(Number(stopLat)) &&
-    !Number.isNaN(Number(stopLon))
-  ) {
+  /* Limpiar marcadores de paradas anteriores */
 
-    const stopCoords = [
-      Number(stopLat),
-      Number(stopLon)
+  stopMarkers.forEach((marker) => {
+    map.removeLayer(marker);
+  });
+
+  stopMarkers = [];
+
+
+  const paradasValidas = paradas.filter((parada) =>
+    parada &&
+    parada.stop_lat !== null &&
+    parada.stop_lat !== undefined &&
+    parada.stop_lon !== null &&
+    parada.stop_lon !== undefined &&
+    !Number.isNaN(Number(parada.stop_lat)) &&
+    !Number.isNaN(Number(parada.stop_lon))
+  );
+
+
+  if (paradasValidas.length > 0) {
+
+    const puntosEncuadre = [
+      lastUserCoords
     ];
 
 
-    if (stopMarker) {
+    paradasValidas.forEach((parada) => {
 
-      stopMarker.setLatLng(
+      const stopCoords = [
+        Number(parada.stop_lat),
+        Number(parada.stop_lon)
+      ];
+
+      const marker = L.marker(
         stopCoords
+      )
+      .addTo(map)
+      .bindPopup(
+        `🚏 ${escaparHTML(parada.stop_name)}`
       );
 
-    } else {
+      stopMarkers.push(marker);
 
-      stopMarker = L.marker(
-        stopCoords
-      ).addTo(map);
+      puntosEncuadre.push(stopCoords);
 
-    }
+    });
 
 
-    stopMarker.bindPopup(
-      `🚏 ${escaparHTML(stopName)}`
+    /* Encuadrar usuario y todas las paradas */
+
+    const bounds = L.latLngBounds(
+      puntosEncuadre
     );
-
-
-    /* Encuadrar usuario y parada */
-
-    const bounds = L.latLngBounds([
-      lastUserCoords,
-      stopCoords
-    ]);
 
 
     map.fitBounds(
@@ -160,17 +173,6 @@ export function inicializarOActualizarMapa(
     );
 
   } else {
-
-    if (stopMarker) {
-
-      map.removeLayer(
-        stopMarker
-      );
-
-      stopMarker = null;
-
-    }
-
 
     map.setView(
       lastUserCoords,

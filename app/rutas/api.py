@@ -7,7 +7,7 @@ from fastapi.responses import FileResponse
 
 from app.config import BASE_DIR, RUTA_STOPS
 from app.gtfs.horarios import obtener_proximos_horarios
-from app.gtfs.paradas import buscar_parada_cercana
+from app.gtfs.paradas import buscar_paradas_cercanas
 from app.tmg.cliente import obtener_horarios_tiempo_real
 
 router = APIRouter()
@@ -18,46 +18,54 @@ def proxima_parada(
     lat: float = Query(..., description="Latitud GPS del móvil"),
     lon: float = Query(..., description="Longitud GPS del móvil"),
     radio: float = Query(100.0, description="Radio de búsqueda en metros"),
+    max_paradas: int = Query(
+        1, ge=1, le=20, description="Número máximo de paradas a devolver"
+    ),
 ):
     if not os.path.exists(RUTA_STOPS):
         return {"error": f"No se encontró stops.txt en {RUTA_STOPS}"}
 
-    parada_cercana = buscar_parada_cercana(lat, lon)
+    paradas_cercanas = buscar_paradas_cercanas(lat, lon, radio, max_paradas)
 
-    if not parada_cercana or parada_cercana["distancia_m"] > radio:
+    if not paradas_cercanas:
         return {
             "encontrada": False,
             "mensaje": f"No hay paradas a menos de {radio}m",
-            "parada_mas_cercana_m": (
-                parada_cercana["distancia_m"] if parada_cercana else None
-            ),
+            "paradas": [],
         }
 
-    # 1. Intentar tiempo real TMG.
-    tiempo_real = obtener_horarios_tiempo_real(
-        parada_cercana["stop_id"],
-        limite=5,
-    )
+    resultado_paradas = []
 
-    # 2. Siempre calculamos GTFS como fallback.
-    programados = obtener_proximos_horarios(
-        parada_cercana["stop_id"],
-        limite=5,
-    )
+    for parada in paradas_cercanas:
+        # 1. Intentar tiempo real TMG.
+        tiempo_real = obtener_horarios_tiempo_real(
+            parada["stop_id"],
+            limite=5,
+        )
 
-    if tiempo_real:
-        proximos_buses = tiempo_real
-        fuente_horarios = "tmg_tiempo_real"
-    else:
-        proximos_buses = programados
-        fuente_horarios = "gtfs"
+        # 2. Siempre calculamos GTFS como fallback.
+        programados = obtener_proximos_horarios(
+            parada["stop_id"],
+            limite=5,
+        )
+
+        if tiempo_real:
+            proximos_buses = tiempo_real
+            fuente_horarios = "tmg_tiempo_real"
+        else:
+            proximos_buses = programados
+            fuente_horarios = "gtfs"
+
+        resultado_paradas.append({
+            "parada": parada,
+            "proximos_autobuses": proximos_buses,
+            "fuente_horarios": fuente_horarios,
+            "tiempo_real_disponible": bool(tiempo_real),
+        })
 
     return {
         "encontrada": True,
-        "parada": parada_cercana,
-        "proximos_autobuses": proximos_buses,
-        "fuente_horarios": fuente_horarios,
-        "tiempo_real_disponible": bool(tiempo_real),
+        "paradas": resultado_paradas,
     }
 
 

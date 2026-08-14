@@ -96,69 +96,18 @@ function generarHTMLAutobus(bus) {
 
 
 
-export function mostrarResultados(
-  data,
-  lat,
-  lon
-) {
-
-  const contenedor =
-    document.getElementById(
-      "contenido"
-    );
-
-
-  /* ========================================================
-     Comprobar parada
-     ======================================================== */
-
-  if (!data.encontrada) {
-
-    contenedor.innerHTML = `
-
-      <p class="status-text">
-
-        ${escaparHTML(
-          data.mensaje ||
-          "No se han encontrado paradas cercanas."
-        )}
-
-      </p>
-
-    `;
-
-    return;
-
-  }
-
+function generarHTMLParada(entradaParada) {
 
   const parada =
-    data.parada;
+    entradaParada.parada;
 
 
   const autobuses =
     Array.isArray(
-      data.proximos_autobuses
+      entradaParada.proximos_autobuses
     )
-      ? data.proximos_autobuses
+      ? entradaParada.proximos_autobuses
       : [];
-
-
-  /* Actualizar mapa */
-
-  inicializarOActualizarMapa(
-
-    lat,
-
-    lon,
-
-    parada.stop_lat,
-
-    parada.stop_lon,
-
-    parada.stop_name
-
-  );
 
 
   /* ========================================================
@@ -166,8 +115,8 @@ export function mostrarResultados(
      ======================================================== */
 
   const tiempoReal =
-    data.tiempo_real_disponible === true ||
-    data.fuente_horarios === "tmg_tiempo_real";
+    entradaParada.tiempo_real_disponible === true ||
+    entradaParada.fuente_horarios === "tmg_tiempo_real";
 
 
   let fuenteHTML;
@@ -237,43 +186,117 @@ export function mostrarResultados(
 
 
   /* ========================================================
-     Renderizar tarjeta
+     Tarjeta de la parada
      ======================================================== */
 
-  contenedor.innerHTML = `
+  return `
 
-    <div class="parada-header">
+    <div class="parada-card">
 
-      <div class="parada-nombre">
+      <div class="parada-header">
 
-        ${escaparHTML(parada.stop_id)} | ${escaparHTML(
-          parada.stop_name
-        )}
+        <div class="parada-nombre">
+
+          ${escaparHTML(parada.stop_id)} | ${escaparHTML(
+            parada.stop_name
+          )}
+
+        </div>
+
+        <div class="parada-distancia">
+
+          📍 a
+          ${escaparHTML(
+            parada.distancia_m
+          )}
+          metros de ti
+
+        </div>
 
       </div>
 
-      <div class="parada-distancia">
 
-        📍 a
-        ${escaparHTML(
-          parada.distancia_m
-        )}
-        metros de ti
+      ${fuenteHTML}
+
+
+      <div class="bus-list">
+
+        ${htmlBuses}
 
       </div>
-
-    </div>
-
-
-    ${fuenteHTML}
-
-
-    <div class="bus-list">
-
-      ${htmlBuses}
 
     </div>
 
   `;
+
+}
+
+
+
+export function mostrarResultados(
+  data,
+  lat,
+  lon
+) {
+
+  const contenedor =
+    document.getElementById(
+      "contenido"
+    );
+
+
+  /* ========================================================
+     Comprobar parada
+     ======================================================== */
+
+  if (
+    !data.encontrada ||
+    !Array.isArray(data.paradas) ||
+    data.paradas.length === 0
+  ) {
+
+    contenedor.innerHTML = `
+
+      <p class="status-text">
+
+        ${escaparHTML(
+          data.mensaje ||
+          "No se han encontrado paradas cercanas."
+        )}
+
+      </p>
+
+    `;
+
+    inicializarOActualizarMapa(
+      lat,
+      lon
+    );
+
+    return;
+
+  }
+
+
+  /* Actualizar mapa con todas las paradas encontradas */
+
+  inicializarOActualizarMapa(
+
+    lat,
+
+    lon,
+
+    data.paradas.map((p) => p.parada)
+
+  );
+
+
+  /* ========================================================
+     Renderizar una tarjeta por parada
+     ======================================================== */
+
+  contenedor.innerHTML = data.paradas
+    .map(generarHTMLParada)
+    .join("");
 
 }

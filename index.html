@@ -38,6 +38,66 @@
     🎯
   </button>
 
+  <button
+    class="btn-config"
+    onclick="abrirPanelConfig()"
+    title="Configuración"
+    aria-label="Configuración"
+  >
+    ⚙️
+  </button>
+
+</div>
+
+<!-- Modal de configuración -->
+<div id="modal-config" class="modal oculto">
+
+  <div class="modal-contenido">
+
+    <h2>Configuración</h2>
+
+    <label for="input-radio">
+      Radio de búsqueda (metros)
+    </label>
+    <input
+      type="number"
+      id="input-radio"
+      min="10"
+      max="2000"
+      step="10"
+    >
+
+    <label for="input-max-paradas">
+      Número máximo de paradas
+    </label>
+    <input
+      type="number"
+      id="input-max-paradas"
+      min="1"
+      max="20"
+      step="1"
+    >
+
+    <div class="modal-botones">
+
+      <button
+        class="btn-cancelar"
+        onclick="cerrarPanelConfig()"
+      >
+        Cancelar
+      </button>
+
+      <button
+        class="btn-guardar"
+        onclick="guardarPanelConfig()"
+      >
+        Guardar
+      </button>
+
+    </div>
+
+  </div>
+
 </div>
 
 <!-- Contenido con horarios de la parada -->

@@ -6,9 +6,9 @@
 import { escaparHTML } from "./utils.js";
 import { inicializarOActualizarMapa } from "./mapa.js";
 import { mostrarResultados } from "./render.js";
+import { obtenerConfig } from "./config.js";
 
 const API_URL = "/api/proxima-parada";
-const RADIO_BUSQUEDA = 100;
 
 
 export function buscarAutobuses() {
@@ -105,10 +105,13 @@ export function buscarAutobuses() {
            Llamada al backend
            ================================================== */
 
+        const config = obtenerConfig();
+
         const url =
           `${API_URL}?lat=${encodeURIComponent(lat)}` +
           `&lon=${encodeURIComponent(lon)}` +
-          `&radio=${RADIO_BUSQUEDA}`;
+          `&radio=${encodeURIComponent(config.radio)}` +
+          `&max_paradas=${encodeURIComponent(config.maxParadas)}`;
 
 
         const resp =

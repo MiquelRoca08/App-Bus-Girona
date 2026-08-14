@@ -78,6 +78,130 @@
       background-color: #f0f0f0;
     }
 
+    .btn-config {
+      position: absolute;
+      top: 10px;
+      right: 54px;
+      z-index: 1000;
+
+      background: #ffffff;
+      border: none;
+      border-radius: 50%;
+
+      width: 36px;
+      height: 36px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+
+      cursor: pointer;
+      font-size: 16px;
+
+      transition:
+        transform 0.1s ease,
+        background-color 0.2s ease;
+    }
+
+    .btn-config:active {
+      transform: scale(0.92);
+      background-color: #f0f0f0;
+    }
+
+    /* =========================
+       MODAL DE CONFIGURACIÓN
+       ========================= */
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 2000;
+
+      background: rgba(0, 0, 0, 0.4);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px;
+    }
+
+    .modal.oculto {
+      display: none;
+    }
+
+    .modal-contenido {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+
+      width: 100%;
+      max-width: 340px;
+
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-contenido h2 {
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+    }
+
+    .modal-contenido label {
+      display: block;
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+
+    .modal-contenido input[type="number"] {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .modal-botones {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .modal-botones button {
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    .btn-cancelar {
+      background: #e5e7eb;
+      color: #333;
+    }
+
+    .btn-guardar {
+      background: #2563eb;
+      color: #ffffff;
+    }
+
+    /* =========================
+       PARADAS (múltiples)
+       ========================= */
+
+    .parada-card {
+      margin-bottom: 16px;
+    }
+
+    .parada-card:last-child {
+      margin-bottom: 0;
+    }
+
     /* =========================
        TARJETA PRINCIPAL
        ========================= */

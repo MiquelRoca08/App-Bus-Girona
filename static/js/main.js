@@ -6,9 +6,21 @@
 
 import { recentrarUbicacion } from "./mapa.js";
 import { buscarAutobuses } from "./ubicacion.js";
+import {
+  abrirPanelConfig,
+  cerrarPanelConfig,
+  guardarPanelConfig,
+} from "./panel-config.js";
 
 window.recentrarUbicacion = recentrarUbicacion;
 window.buscarAutobuses = buscarAutobuses;
+window.abrirPanelConfig = abrirPanelConfig;
+window.cerrarPanelConfig = cerrarPanelConfig;
+
+window.guardarPanelConfig = () => {
+  guardarPanelConfig();
+  buscarAutobuses();
+};
 
 window.addEventListener(
   "load",

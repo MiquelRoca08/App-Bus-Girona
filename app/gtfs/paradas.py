@@ -146,3 +146,34 @@ def buscar_parada_cercana(lat, lon):
                 }
 
     return parada_cercana
+
+
+def buscar_paradas_cercanas(lat, lon, radio, max_paradas):
+    """Recorre stops.txt y devuelve una lista de paradas GTFS dentro de
+    `radio` metros de (lat, lon), ordenadas de más a menos cercana y
+    recortada a `max_paradas` elementos. Lista vacía si no hay ninguna
+    dentro del radio."""
+    paradas = []
+
+    with open(RUTA_STOPS, mode="r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            try:
+                s_lat = float(row["stop_lat"])
+                s_lon = float(row["stop_lon"])
+            except (KeyError, ValueError):
+                continue
+
+            dist = haversine(lat, lon, s_lat, s_lon)
+
+            if dist <= radio:
+                paradas.append({
+                    "stop_id": row["stop_id"],
+                    "stop_name": row["stop_name"],
+                    "stop_lat": s_lat,
+                    "stop_lon": s_lon,
+                    "distancia_m": round(dist, 1),
+                })
+
+    paradas.sort(key=lambda p: p["distancia_m"])
+
+    return paradas[:max_paradas]
