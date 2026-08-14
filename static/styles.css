@@ -296,43 +296,50 @@
       border-bottom: none;
     }
 
-    .badge-linea {
-      background-color: #2563eb;
-      color: white;
-
-      font-weight: bold;
-
-      padding: 6px 12px;
-
-      border-radius: 8px;
-
-      font-size: 0.95rem;
-
-      min-width: 50px;
-
-      text-align: center;
-
-      flex-shrink: 0;
-    }
-
+    /* Line badge: when an SVG icon is present we remove the
+       surrounding blue background so the SVG defines the visual.
+       If the SVG fails to load the fallback text gets the blue
+       pill-style background. */
     .badge-linea {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
-      padding: 6px 8px;
-      min-width: 40px;
+      padding: 0; /* remove padding so SVG fills the area */
+      background: transparent !important; /* let the SVG provide the color */
+      border-radius: 8px;
+      flex-shrink: 0;
     }
 
     .badge-icon {
-      width: 28px;
-      height: 28px;
-      display: inline-block;
+      width: 36px;
+      height: 36px;
+      display: block;
+      object-fit: contain;
       vertical-align: middle;
+      background: transparent !important;
+      border-radius: 6px;
+      box-shadow: none !important;
     }
 
+    /* fallback text shown when SVG fails: styled as the blue pill */
     .badge-text {
-      display: none;
+      /* Hidden permanently: we rely on SVG icons only. */
+      display: none !important;
+      background-color: transparent !important;
+      color: inherit !important;
+      padding: 0 !important;
+      border-radius: 0 !important;
+      font-size: inherit !important;
+      min-width: 0 !important;
+      text-align: left !important;
+    }
+
+    /* Defensive: remove any blue background accidentally applied */
+    .badge-linea, .badge-linea * {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: 0 !important;
     }
 
     .bus-destino {

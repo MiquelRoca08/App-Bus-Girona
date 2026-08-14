@@ -13,8 +13,18 @@ RUTA_STOP_TIMES = os.path.join(LIBS_DIR, "stop_times.txt")
 RUTA_TRIPS = os.path.join(LIBS_DIR, "trips.txt")
 RUTA_ROUTES = os.path.join(LIBS_DIR, "routes.txt")
 
-# Versión de la aplicación
-VERSION = "v0.1.0"
+# Versión de la aplicación (leer desde el archivo VERSION si existe)
+VERSION = "v0.0.0"
+try:
+	VERSION_FILE = os.path.join(BASE_DIR, "VERSION")
+	if os.path.exists(VERSION_FILE):
+		with open(VERSION_FILE, mode="r", encoding="utf-8") as vf:
+			raw = vf.read().strip()
+			if raw:
+				VERSION = raw
+except Exception:
+	# dejar el valor por defecto si hay cualquier problema
+	pass
 
 # Endpoint utilizado por la aplicación AppBus de TMG.
 TMG_REALTIME_URL = "https://web2.girona.cat/appbus/cat/busos_json.php"
