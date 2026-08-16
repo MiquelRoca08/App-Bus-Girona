@@ -5,7 +5,6 @@
 *.pyc
 *.pyo
 *.pyd
-.env
 .vscode
 README.md
 docker.sh

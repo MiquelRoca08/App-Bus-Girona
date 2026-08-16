@@ -10,7 +10,7 @@ services:
       - "8090:8000"
 
     volumes:
-      - ./libs:/app/libs
+      - /DATA/app-bus-girona/libs:/app/libs
 
     environment:
       TMG_DEBUG: "1"
