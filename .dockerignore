@@ -1,0 +1,12 @@
+.git
+.gitignore
+.github
+*__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode
+README.md
+docker.sh
+sync-version.sh
