@@ -52,12 +52,6 @@ El funcionamiento general es:
 La prioridad es siempre **tiempo real de TMG**. Los horarios GTFS se
 utilizan como alternativa cuando TMG no proporciona información.
 
-> Nota: hasta la v1.6.x la aplicación distinguía entre sentido `anada`
-> (ida) y `torna` (vuelta) por cada parada. Se eliminó esa distinción:
-> en la práctica cada parada física de Girona solo tiene un sentido de
-> circulación real, y consultar ambos sentidos sobre el mismo
-> `stop_id` producía autobuses duplicados en la interfaz.
-
 ---
 
 ## 2. Arquitectura
