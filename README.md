@@ -14,27 +14,27 @@ en la parada más cercana a su posición.
 El funcionamiento general es:
 
 ```
-┌──────────────────────┐
+┌───────────────────────┐
 │   Ubicación GPS       │
 │      usuario          │
 └──────────┬────────────┘
            │
            ▼
-┌──────────────────────┐
-│ Buscar parada GTFS     │
-│ más cercana            │
+┌───────────────────────┐
+│ Buscar parada GTFS    │
+│ más cercana           │
 └──────────┬────────────┘
            │
            ▼
-┌──────────────────────┐
-│ Identificar líneas      │
-│ de la parada            │
+┌───────────────────────┐
+│ Identificar líneas    │
+│ de la parada          │
 └──────────┬────────────┘
            │
            ▼
-┌──────────────────────┐
-│ Consultar TMG            │
-│ tiempo real               │
+┌───────────────────────┐
+│ Consultar TMG         │
+│ tiempo real           │
 └──────────┬────────────┘
            │
       ┌────┴─────┐
@@ -69,18 +69,18 @@ El proyecto está dividido en dos partes:
 └──────────────┬────────────────┘
                │ HTTP
                ▼
-┌──────────────────────────────┐
-│        FastAPI / Uvicorn     │
-│                              │
-│   main.py + paquete app/     │
-└──────────────┬───────────────┘
+┌───────────────────────────────┐
+│       FastAPI / Uvicorn       │
+│                               │
+│     main.py + paquete app/    │
+└──────────────┬────────────────┘
                │
        ┌───────┴────────┐
        │                │
        ▼                ▼
 ┌────────────┐   ┌──────────────┐
 │    GTFS    │   │     TMG      │
-│            │   │ AppBus API   │
+│            │   │  AppBus API  │
 │ libs/*.txt │   │              │
 └────────────┘   └──────────────┘
 ```
