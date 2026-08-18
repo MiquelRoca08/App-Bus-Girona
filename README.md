@@ -1,4 +1,4 @@
-# Girona Bus Tracker
+# App Bus Girona
 
 Aplicación web para consultar la próxima salida de autobuses urbanos de
 Girona utilizando la ubicación GPS del usuario, datos GTFS y la
