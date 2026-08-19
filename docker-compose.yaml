@@ -1,21 +1,15 @@
 services:
   app-bus-girona:
     image: miquelroca08/app-bus-girona:${VERSION}
-    build:
-      context: .
     container_name: app-bus-girona
     restart: unless-stopped
-
     ports:
       - "8090:8000"
-
     volumes:
-      - /DATA/AppData/app-bus-girona/libs:/app/libs
-
+      - ./libs:/app/libs
     environment:
       TMG_DEBUG: "1"
       TZ: Europe/Madrid
-
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/docs')"]
       interval: 30s
