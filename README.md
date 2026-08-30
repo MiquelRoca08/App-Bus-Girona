@@ -381,3 +381,81 @@ está prevista una migración completa a JavaScript.
 mediante GTFS y utiliza la API interna de AppBus de TMG para mostrar
 el tiempo real en minutos; cuando TMG no proporciona datos, recurre a
 los horarios programados GTFS en formato HH:MM.
+
+## 9. Fuentes de datos, atribución y avisos legales
+
+Este proyecto es una iniciativa **personal, no oficial y sin ánimo de
+lucro**. No está afiliado, patrocinado ni respaldado por Transports
+Municipals del Gironès S.A.U. (TMG), l'Ajuntament de Girona, ni
+l'Autoritat del Transport Metropolità (ATM).
+
+### 9.1 Datos GTFS estáticos
+
+Los horarios, paradas y líneas en formato GTFS estático se descargan
+del feed oficial de Transports Municipals del Gironès (TMG) publicado
+en el **Punto de Acceso Nacional de Transporte Multimodal (NAP)** del
+Ministerio de Transportes y Movilidad Sostenible (MITMA/MITRAMS):
+`https://nap.transportes.gob.es/api/Fichero/download/1570` (también
+disponible como espejo en
+[Mobility Database, feed mdb-2751](https://mobilitydatabase.org/feeds/gtfs/mdb-2751)).
+
+Esta reutilización se realiza bajo la
+[Licencia de datos abiertos (LDA) del NAP](https://nap.transportes.gob.es/licencia-datos),
+que permite la reutilización de los datos con fines comerciales y no
+comerciales. En cumplimiento de dicha licencia:
+
+- **Powered by MITRAMS** — datos obtenidos a través del Punto de
+  Acceso Nacional de Transporte Multimodal del Ministerio de
+  Transportes y Movilidad Sostenible
+  ([transportes.gob.es](https://www.transportes.gob.es/)).
+- Los datos originales corresponden a Transports Municipals del
+  Gironès (TMG); se utilizan en bruto (raw data GTFS), sin manipular
+  ni desnaturalizar su sentido, únicamente procesados para calcular
+  la parada más cercana y los próximos horarios de paso.
+- No se sugiere en ningún momento que el MITRAMS ni TMG patrocinen,
+  participen o avalen este proyecto.
+- **Última actualización de los datos GTFS usados:** *(indicar aquí
+  la fecha del fichero GTFS que se esté sirviendo, según la fecha de
+  descarga o la que conste en `feed_info.txt` / `calendar.txt`)*.
+
+> [!NOTE]
+> La LDA del NAP indica expresamente que no exime de las
+> restricciones que pueda establecer la licencia de la fuente
+> original de cada conjunto de datos (en este caso, TMG), prevaleciendo
+> en caso de discrepancia la más restrictiva de ambas.
+
+### 9.2 Datos en tiempo real (AppBus)
+
+
+La información de tiempo real ("X min") se obtiene consultando el
+endpoint interno que utiliza la web pública de AppBus de TMG
+(`web2.girona.cat/appbus/...`). A diferencia del GTFS estático, este
+tiempo real **no** forma parte del portal de dades obertes del CGIM y
+no está cubierto por ninguna licencia de reutilización explícita: su
+uso aquí se realiza de forma no oficial, consultando el mismo endpoint
+público que usa la web de AppBus, sin alterar, redistribuir ni
+almacenar los datos más allá de mostrarlos al usuario en el momento de
+la consulta.
+
+Si Transports Municipals del Gironès S.A.U. desea que se modifique o
+retire este uso, este proyecto se ajustará o discontinuará dicha
+funcionalidad a la mayor brevedad. Cualquier consulta al respecto puede
+dirigirse a gestio@tmgsau.cat.
+
+### 9.3 Contacto
+
+Si detectas algún dato incorrecto, tienes dudas sobre el uso de la
+información mostrada, o eres de TMG / MITRAMS / l'Ajuntament de
+Girona y quieres comentar algo sobre este proyecto:
+
+- **Issues en GitHub:** https://github.com/miquelroca08/app-bus-girona/issues
+- **Email:** *miquelroca80@gmail.com*
+
+### 9.4 Exención de responsabilidad
+
+Este proyecto se ofrece "tal cual", sin garantía de disponibilidad,
+exactitud o continuidad de los datos mostrados. TMG y la ATM no se
+hacen responsables del contenido de esta aplicación, y el autor de
+este proyecto no se hace responsable de decisiones tomadas en base a
+la información aquí mostrada. Para información oficial, consulta
+siempre [web2.girona.cat/tmg](https://web2.girona.cat/tmg/cat/index.php).

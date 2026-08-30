@@ -1,6 +1,6 @@
 services:
   app-bus-girona:
-    image: miquelroca08/app-bus-girona:${VERSION}
+    image: miquelroca08/app-bus-girona:latest
     container_name: app-bus-girona
     restart: unless-stopped
     ports:
