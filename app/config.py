@@ -13,6 +13,10 @@ RUTA_STOP_TIMES = os.path.join(LIBS_DIR, "stop_times.txt")
 RUTA_TRIPS = os.path.join(LIBS_DIR, "trips.txt")
 RUTA_ROUTES = os.path.join(LIBS_DIR, "routes.txt")
 
+# Carpeta donde se guardan los PDFs de cada parada, nombrados como
+# "<stop_id>.pdf" (por ejemplo: pdfs/15000.pdf).
+PDFS_DIR = os.path.join(BASE_DIR, "pdfs")
+
 # Versión de la aplicación: preferir variable de entorno, luego `.env`, luego archivo `VERSION`.
 VERSION = os.environ.get("VERSION")
 

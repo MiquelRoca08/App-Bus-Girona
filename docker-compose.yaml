@@ -1,12 +1,16 @@
 services:
   app-bus-girona:
-    image: miquelroca08/app-bus-girona:latest
+    # image: miquelroca08/app-bus-girona:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: app-bus-girona
     restart: unless-stopped
     ports:
       - "8090:8000"
     volumes:
       - ./libs:/app/libs
+      - ./pdfs:/app/pdfs
     environment:
       TMG_DEBUG: "1"
       TZ: Europe/Madrid

@@ -1,12 +1,13 @@
 """Endpoints HTTP: búsqueda de la próxima parada y frontend."""
 
 import os
+import re
 import logging
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import FileResponse
 
-from app.config import BASE_DIR, RUTA_STOPS, VERSION
+from app.config import BASE_DIR, PDFS_DIR, RUTA_STOPS, VERSION
 from app.gtfs.horarios import obtener_proximos_horarios
 from app.gtfs.paradas import buscar_paradas_cercanas
 from app.gtfs.loader import cargar_gtfs
@@ -14,6 +15,19 @@ from app.tmg.cliente import obtener_horarios_tiempo_real
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
+
+# Un stop_id GTFS válido es alfanumérico (en la práctica, numérico). Se
+# valida con una whitelist estricta para evitar cualquier intento de
+# path traversal a través del parámetro de la URL.
+_STOP_ID_VALIDO = re.compile(r"^[A-Za-z0-9_-]+$")
+
+
+def _ruta_pdf_parada(stop_id: str) -> str:
+    """Devuelve la ruta absoluta esperada para el PDF de una parada,
+    o lanza HTTPException(400) si el stop_id no tiene un formato válido."""
+    if not _STOP_ID_VALIDO.match(stop_id):
+        raise HTTPException(status_code=400, detail="stop_id no válido")
+    return os.path.join(PDFS_DIR, f"{stop_id}.pdf")
 
 
 @router.get("/api/proxima-parada")
@@ -78,6 +92,33 @@ def proxima_parada(
         "encontrada": True,
         "paradas": resultado_paradas,
     }
+
+
+@router.get("/api/parada/{stop_id}/tiene-pdf")
+def parada_tiene_pdf(stop_id: str):
+    """Indica si existe un PDF asociado a esta parada, sin descargarlo.
+    Pensado para que el frontend decida si mostrar el botón/enlace."""
+    ruta = _ruta_pdf_parada(stop_id)
+    return {"stop_id": stop_id, "tiene_pdf": os.path.isfile(ruta)}
+
+
+@router.get("/api/parada/{stop_id}/pdf")
+def parada_pdf(stop_id: str):
+    """Sirve el PDF de una parada concreta (pdfs/<stop_id>.pdf) para que
+    se abra en el visor del navegador (Content-Disposition: inline) en
+    lugar de forzar una descarga."""
+    ruta = _ruta_pdf_parada(stop_id)
+
+    if not os.path.isfile(ruta):
+        raise HTTPException(status_code=404, detail="No hay PDF para esta parada")
+
+    return FileResponse(
+        ruta,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f'inline; filename="parada-{stop_id}.pdf"'
+        },
+    )
 
 
 @router.get("/")

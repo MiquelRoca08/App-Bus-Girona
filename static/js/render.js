@@ -227,9 +227,68 @@ function generarHTMLParada(entradaParada) {
 
       </div>
 
+      <div class="parada-links" id="links-parada-${escaparHTML(parada.stop_id)}">
+        <a href="https://web2.girona.cat/appbus/cat/parada?codi=${escaparHTML(parada.stop_id)}" target="_blank" class="link-oficial">
+          🌐 Ver parada en TMG
+        </a>
+      </div>
+
     </div>
 
   `;
+
+}
+
+
+/**
+ * Comprueba si existe un PDF para la parada y, si es así, añade el
+ * enlace correspondiente dentro de la tarjeta ya renderizada.
+ * Se hace de forma asíncrona y "best effort": si la comprobación falla
+ * (red, 404, etc.) simplemente no se muestra el enlace.
+ */
+async function anadirEnlacePdfSiExiste(stopId) {
+
+  try {
+
+    const respuesta = await fetch(
+      `/api/parada/${encodeURIComponent(stopId)}/tiene-pdf`
+    );
+
+    if (!respuesta.ok) {
+      return;
+    }
+
+    const datos = await respuesta.json();
+
+    if (!datos.tiene_pdf) {
+      return;
+    }
+
+    const contenedorLinks = document.getElementById(
+      `links-parada-${stopId}`
+    );
+
+    if (!contenedorLinks) {
+      return;
+    }
+
+    const enlacePdf = document.createElement("a");
+    enlacePdf.href = `/api/parada/${encodeURIComponent(stopId)}/pdf`;
+    enlacePdf.target = "_blank";
+    enlacePdf.className = "link-pdf";
+    enlacePdf.textContent = "📄 Ver PDF de la parada";
+
+    contenedorLinks.appendChild(enlacePdf);
+
+  } catch (error) {
+
+    // Fallo de red u otro error: no mostramos el enlace, sin romper la UI.
+    console.warn(
+      `No se pudo comprobar el PDF de la parada ${stopId}:`,
+      error
+    );
+
+  }
 
 }
 
@@ -300,5 +359,19 @@ export function mostrarResultados(
   contenedor.innerHTML = data.paradas
     .map(generarHTMLParada)
     .join("");
+
+
+  /* ========================================================
+     Comprobar y añadir enlaces a PDF por parada (asíncrono,
+     no bloquea el pintado de las tarjetas)
+     ======================================================== */
+
+  data.paradas.forEach((entradaParada) => {
+
+    anadirEnlacePdfSiExiste(
+      entradaParada.parada.stop_id
+    );
+
+  });
 
 }

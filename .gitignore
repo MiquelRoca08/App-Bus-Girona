@@ -3,3 +3,4 @@ docker.sh
 .env
 sync-version.sh
 .vscode
+pdfs/

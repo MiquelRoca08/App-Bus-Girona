@@ -323,32 +323,35 @@ actualizar sin reconstruir la imagen. La variable de entorno
 | API TMG                                   | ✅ Funciona        |
 | Tiempo real (X min)                       | ✅ Funciona        |
 | Fallback HH:MM                            | ✅ Funciona        |
-| Control de frecuencia de peticiones GPS   | ⚠️ Pendiente       |
-| Comparación de retraso GTFS/TMG           | ⏳ Futuro          |
 
 ---
 
 ## 7. Notas conocidas / mejoras futuras
 
-- **Peticiones GPS excesivas**: el frontend puede lanzar muchas
-  consultas al backend mientras el usuario se desplaza, incluso con
-  coordenadas repetidas. Mejora prevista: separar la actualización de
-  GPS (frecuente) de la consulta de autobuses (solo si el usuario se
-  ha desplazado lo suficiente, p. ej. 50 m / 10 s de cooldown).
-- **Mostrar horario oficial (PDF / web)** además del calculado.
-- **Radio de detección y número de paradas configurables** por el
-  usuario.
-- **Buscador de paradas.**
-- **Colores de línea** (assets).
-- **Mapa general de todas las líneas.**
-- **Click en una parada del mapa** para ver sus horarios directamente.
-- **Comparar GTFS vs TMG** para detectar y mostrar retrasos
-  (`08:10 → 08:13, +3 min`).
+### 7.1 PDFs de paradas
 
-Estas features requieren backend (parsing GTFS más extenso, más
-paradas/ciudades, caché), por lo que la arquitectura actual
-(Python/FastAPI en el servidor + JS en el navegador) se mantiene: no
-está prevista una migración completa a JavaScript.
+Los PDFs de horarios se descargan automáticamente con `scripts/descargar_pdfs_paradas.py`,
+que consulta el endpoint público `https://umat.girona.cat/apps/bus/cerca_pdf/parada/<stop_id>_L<linea>`
+para cada parada y línea GTFS.
+
+**Cobertura: 249 de 251 paradas.**
+
+Dos paradas no tienen PDF disponible en el sistema de Girona:
+- `15392` — ctra de Palau (Vedruna)
+- `15398` — ctra de Palau (Vedruna)
+
+Para esa combinación parada+línea (L10), el endpoint no devuelve un PDF sino la SPA
+genérica de girona.cat con status 200 (no un 404), lo que indica que esas paradas
+simplemente no tienen ficha PDF generada en su sistema — no es un fallo del script
+ni del mapeo GTFS. Verificado con `--debug` el 01/09/2026.
+
+La app no muestra el botón de PDF para paradas sin fichero, así que esto no rompe
+nada de cara al usuario. Si en el futuro Girona genera esas fichas, basta con
+re-ejecutar:
+
+```bash
+python3 scripts/descargar_pdfs_paradas.py --stops 15392 15398 --forzar
+```
 
 ---
 
