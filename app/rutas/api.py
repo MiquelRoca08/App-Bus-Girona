@@ -9,7 +9,7 @@ from fastapi.responses import FileResponse
 
 from app.config import BASE_DIR, PDFS_DIR, RUTA_STOPS, VERSION
 from app.gtfs.horarios import obtener_proximos_horarios
-from app.gtfs.paradas import buscar_paradas_cercanas
+from app.gtfs.paradas import buscar_paradas_cercanas, obtener_parada_por_id
 from app.gtfs.loader import cargar_gtfs
 from app.tmg.cliente import obtener_horarios_tiempo_real
 
@@ -28,6 +28,29 @@ def _ruta_pdf_parada(stop_id: str) -> str:
     if not _STOP_ID_VALIDO.match(stop_id):
         raise HTTPException(status_code=400, detail="stop_id no válido")
     return os.path.join(PDFS_DIR, f"{stop_id}.pdf")
+
+
+def _calcular_horarios_parada(stop_id: str) -> dict:
+    """Calcula los próximos autobuses de una parada: intenta tiempo real
+    TMG y, si no hay respuesta, cae a los horarios programados GTFS.
+    Reutilizado tanto por /api/proxima-parada (varias paradas por
+    coordenadas) como por /api/parada/{stop_id}/horarios (una parada
+    concreta por stop_id, p. ej. al tocarla en el mapa)."""
+    tiempo_real = obtener_horarios_tiempo_real(stop_id, limite=5)
+    programados = obtener_proximos_horarios(stop_id, limite=5)
+
+    if tiempo_real:
+        proximos_buses = tiempo_real
+        fuente_horarios = "tmg_tiempo_real"
+    else:
+        proximos_buses = programados
+        fuente_horarios = "gtfs"
+
+    return {
+        "proximos_autobuses": proximos_buses,
+        "fuente_horarios": fuente_horarios,
+        "tiempo_real_disponible": bool(tiempo_real),
+    }
 
 
 @router.get("/api/proxima-parada")
@@ -62,35 +85,38 @@ def proxima_parada(
     resultado_paradas = []
 
     for parada in paradas_cercanas:
-        # 1. Intentar tiempo real TMG.
-        tiempo_real = obtener_horarios_tiempo_real(
-            parada["stop_id"],
-            limite=5,
-        )
-
-        # 2. Siempre calculamos GTFS como fallback.
-        programados = obtener_proximos_horarios(
-            parada["stop_id"],
-            limite=5,
-        )
-
-        if tiempo_real:
-            proximos_buses = tiempo_real
-            fuente_horarios = "tmg_tiempo_real"
-        else:
-            proximos_buses = programados
-            fuente_horarios = "gtfs"
+        info_horarios = _calcular_horarios_parada(parada["stop_id"])
 
         resultado_paradas.append({
             "parada": parada,
-            "proximos_autobuses": proximos_buses,
-            "fuente_horarios": fuente_horarios,
-            "tiempo_real_disponible": bool(tiempo_real),
+            **info_horarios,
         })
 
     return {
         "encontrada": True,
         "paradas": resultado_paradas,
+    }
+
+
+@router.get("/api/parada/{stop_id}/horarios")
+def parada_horarios(stop_id: str):
+    """Horarios de una parada concreta por stop_id, sin depender de
+    coordenadas/radio. Pensado para el mapa: al tocar cualquier parada
+    visible (esté o no dentro del radio de búsqueda actual), se pueden
+    consultar sus horarios bajo demanda."""
+    if not _STOP_ID_VALIDO.match(stop_id):
+        raise HTTPException(status_code=400, detail="stop_id no válido")
+
+    parada = obtener_parada_por_id(stop_id)
+
+    if parada is None:
+        raise HTTPException(status_code=404, detail="Parada no encontrada")
+
+    info_horarios = _calcular_horarios_parada(stop_id)
+
+    return {
+        "parada": parada,
+        **info_horarios,
     }
 
 

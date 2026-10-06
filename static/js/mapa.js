@@ -3,7 +3,7 @@
  * marcador de parada, y recentrado.
  */
 
-import { escaparHTML } from "./utils.js";
+import { abrirModalParadaMapa } from "./modal-parada-mapa.js";
 
 let map = null;
 let userMarker = null;
@@ -147,9 +147,9 @@ export function inicializarOActualizarMapa(
         stopCoords
       )
       .addTo(map)
-      .bindPopup(
-        `🚏 ${escaparHTML(parada.stop_name)}`
-      );
+      .on("click", () => {
+        abrirModalParadaMapa(parada.stop_id);
+      });
 
       stopMarkers.push(marker);
 

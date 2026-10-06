@@ -161,6 +161,28 @@
 
 </div>
 
+<!-- Modal de horarios de una parada tocada en el mapa -->
+<div id="modal-parada-mapa" class="modal oculto">
+
+  <div class="modal-contenido">
+
+    <button
+      class="btn-cerrar-modal-parada"
+      onclick="cerrarModalParadaMapa()"
+      title="Cerrar"
+      aria-label="Cerrar"
+    >
+      ✕
+    </button>
+
+    <div id="modal-parada-mapa-contenido">
+      <!-- Rellenado dinámicamente por mapa.js -->
+    </div>
+
+  </div>
+
+</div>
+
 <!-- Contenido con horarios de la parada -->
 <div id="contenido" class="card">
 
@@ -177,6 +199,9 @@
 >
   🔄 Actualizar Ubicación
 </button>
+
+<p id="ultima-actualizacion" class="ultima-actualizacion">
+</p>
 
 <!-- Footer / About -->
 <footer class="footer">

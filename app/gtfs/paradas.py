@@ -11,6 +11,39 @@ from app.utils.geo import haversine
 
 _cache_destinos_parada = None
 _cache_lineas_parada = {}
+_cache_paradas_por_id = None
+
+
+def obtener_parada_por_id(stop_id):
+    """Devuelve el dict {stop_id, stop_name, stop_lat, stop_lon} de una
+    parada a partir de su stop_id, o None si no existe en stops.txt.
+
+    Se cachea un índice completo stop_id -> datos en el primer uso,
+    igual que hace obtener_info_lineas() con trips.txt/routes.txt: el
+    fichero es pequeño (unas 250 filas) y se relee poco.
+    """
+    global _cache_paradas_por_id
+
+    if _cache_paradas_por_id is None:
+        _cache_paradas_por_id = {}
+
+        if os.path.exists(RUTA_STOPS):
+            with open(RUTA_STOPS, mode="r", encoding="utf-8-sig") as f:
+                for row in csv.DictReader(f):
+                    try:
+                        s_lat = float(row["stop_lat"])
+                        s_lon = float(row["stop_lon"])
+                    except (KeyError, ValueError):
+                        continue
+
+                    _cache_paradas_por_id[row["stop_id"]] = {
+                        "stop_id": row["stop_id"],
+                        "stop_name": row["stop_name"],
+                        "stop_lat": s_lat,
+                        "stop_lon": s_lon,
+                    }
+
+    return _cache_paradas_por_id.get(str(stop_id))
 
 
 def obtener_destinos_de_parada(stop_id, linea):

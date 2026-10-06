@@ -12,6 +12,8 @@ import {
   guardarPanelConfig,
 } from "./panel-config.js";
 import { abrirAbout, cerrarAbout, actualizarVersion } from "./about.js";
+import { iniciarAutoActualizacion } from "./auto-refresh.js";
+import { cerrarModalParadaMapa } from "./modal-parada-mapa.js";
 
 // Nota: el chequeo de versión y el auto-reset ante una versión nueva del
 // servidor viven ahora en un <script> al principio de <head> en index.html
@@ -25,6 +27,7 @@ window.abrirPanelConfig = abrirPanelConfig;
 window.cerrarPanelConfig = cerrarPanelConfig;
 window.abrirAbout = abrirAbout;
 window.cerrarAbout = cerrarAbout;
+window.cerrarModalParadaMapa = cerrarModalParadaMapa;
 
 window.guardarPanelConfig = () => {
   guardarPanelConfig();
@@ -35,4 +38,8 @@ window.addEventListener("load", () => {
   // Mostrar versión en el footer y lanzar la búsqueda
   actualizarVersion();
   buscarAutobuses();
+
+  // A partir de aquí, refrescar automáticamente cada minuto en punto
+  // (segundo :00 del reloj del dispositivo), igual que la web de TMG.
+  iniciarAutoActualizacion(buscarAutobuses);
 });

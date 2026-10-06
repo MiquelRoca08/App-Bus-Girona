@@ -4,6 +4,7 @@
 
 import { escaparHTML } from "./utils.js";
 import { inicializarOActualizarMapa } from "./mapa.js";
+import { registrarActualizacion } from "./ultima-actualizacion.js";
 
 
 function generarHTMLAutobus(bus) {
@@ -191,6 +192,21 @@ function generarHTMLParada(entradaParada) {
      Tarjeta de la parada
      ======================================================== */
 
+  const distanciaHTML =
+    parada.distancia_m !== undefined && parada.distancia_m !== null
+      ? `
+        <div class="parada-distancia">
+
+          📍 a
+          ${escaparHTML(
+            parada.distancia_m
+          )}
+          metros de ti
+
+        </div>
+      `
+      : "";
+
   return `
 
     <div class="parada-card">
@@ -205,15 +221,7 @@ function generarHTMLParada(entradaParada) {
 
         </div>
 
-        <div class="parada-distancia">
-
-          📍 a
-          ${escaparHTML(
-            parada.distancia_m
-          )}
-          metros de ti
-
-        </div>
+        ${distanciaHTML}
 
       </div>
 
@@ -334,6 +342,8 @@ export function mostrarResultados(
       lon
     );
 
+    registrarActualizacion();
+
     return;
 
   }
@@ -374,4 +384,9 @@ export function mostrarResultados(
 
   });
 
+  registrarActualizacion();
+
 }
+
+
+export { generarHTMLParada, anadirEnlacePdfSiExiste };

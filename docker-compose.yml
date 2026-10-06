@@ -1,9 +1,7 @@
 services:
   app-bus-girona:
-    # image: miquelroca08/app-bus-girona:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
+    image: app-bus-girona:latest
     container_name: app-bus-girona
     restart: unless-stopped
     ports:
@@ -19,4 +17,4 @@ services:
       interval: 30s
       timeout: 5s
       retries: 3
-      start_period: 10s
+      start_period: 10s 

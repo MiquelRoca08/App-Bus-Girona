@@ -191,6 +191,49 @@
     }
 
     /* =========================
+       MODAL PARADA (MAPA)
+       ========================= */
+
+    #modal-parada-mapa .modal-contenido {
+      max-width: 400px;
+      max-height: 80vh;
+      overflow-y: auto;
+      position: relative;
+      padding-top: 40px;
+    }
+
+    .btn-cerrar-modal-parada {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+
+      width: 32px;
+      height: 32px;
+
+      border: none;
+      border-radius: 50%;
+
+      background: #f3f4f6;
+      color: #374151;
+
+      font-size: 1rem;
+      line-height: 1;
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-cerrar-modal-parada:hover {
+      background: #e5e7eb;
+    }
+
+    #modal-parada-mapa-contenido .parada-card {
+      margin-bottom: 0;
+    }
+
+    /* =========================
        PARADAS (múltiples)
        ========================= */
 
@@ -418,6 +461,13 @@
     .btn-actualizar:disabled {
       opacity: 0.6;
       cursor: wait;
+    }
+
+    .ultima-actualizacion {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #9ca3af;
+      margin: 8px 0 0;
     }
 
     /* =========================
