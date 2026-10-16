@@ -57,7 +57,9 @@ def _calcular_horarios_parada(stop_id: str) -> dict:
 def proxima_parada(
     lat: float = Query(..., description="Latitud GPS del móvil"),
     lon: float = Query(..., description="Longitud GPS del móvil"),
-    radio: float = Query(100.0, description="Radio de búsqueda en metros"),
+    # Acotado al máximo del panel (RADIO_MAX en panel-config.js): un radio enorme recorre todas las paradas y consulta TMG para
+    # cada una (antes, radio=1e8 tardaba 10 s por petición).
+    radio: float = Query(100.0, gt=0, le=2000, description="Radio de búsqueda en metros"),
     max_paradas: int = Query(
         1, ge=1, le=20, description="Número máximo de paradas a devolver"
     ),

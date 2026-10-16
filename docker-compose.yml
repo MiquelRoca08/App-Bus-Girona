@@ -5,7 +5,7 @@ services:
     container_name: app-bus-girona
     restart: unless-stopped
     ports:
-      - "8090:8000"
+      - "192.168.1.216:8090:8000"
     volumes:
       - ./libs:/app/libs
       - ./pdfs:/app/pdfs
