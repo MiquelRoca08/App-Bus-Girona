@@ -414,7 +414,7 @@ export function buscarAutobuses() {
       return;
     }
 
-    const modal = document.createElement("div");
+    const modal = document.createElement("dialog");
     modal.id = "modal-activar-ubicacion";
     modal.className = "modal";
 
@@ -435,6 +435,9 @@ export function buscarAutobuses() {
     `;
 
     document.body.appendChild(modal);
+    modal.showModal();
+    // Escape cierra el <dialog>: se quita del DOM igual que con los botones
+    modal.addEventListener("close", () => modal.remove());
 
     document.getElementById("modal-cerrar").addEventListener("click", () => {
       modal.remove();

@@ -71,6 +71,29 @@ async def no_cache_frontend(request: Request, call_next):
     return response
 
 
+# Cabeceras de seguridad. La CSP solo admite scripts propios y Leaflet (unpkg, con SRI en index.html);
+# las teselas del mapa vienen de OpenStreetMap.
+SECURITY_HEADERS = {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "geolocation=(self), camera=(), microphone=()",
+    "Content-Security-Policy": (
+        "default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' https://unpkg.com; "
+        "img-src 'self' data: https://*.tile.openstreetmap.org https://unpkg.com; connect-src 'self'; "
+        "object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'"
+    ),
+}
+
+
+@app.middleware("http")
+async def security_headers(request: Request, call_next):
+    response = await call_next(request)
+    for name, value in SECURITY_HEADERS.items():
+        response.headers.setdefault(name, value)
+    return response
+
+
 app.include_router(router)
 
 # Servir archivos estáticos (CSS, JS, assets) desde /static/

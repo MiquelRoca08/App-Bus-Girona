@@ -1,7 +1,6 @@
 /**
- * Punto de entrada. Expone en `window` las funciones que el HTML
- * invoca directamente mediante onclick, y arranca la búsqueda al
- * cargar la página.
+ * Punto de entrada. Enlaza los botones del HTML con sus funciones
+ * y arranca la búsqueda al cargar la página.
  */
 
 import { recentrarUbicacion } from "./mapa.js";
@@ -21,18 +20,20 @@ import { cerrarModalParadaMapa } from "./modal-parada-mapa.js";
 // Cache-Control en el servidor. Ya no hace falta cache-bustear el CSS aquí
 // a mano.
 
-window.recentrarUbicacion = recentrarUbicacion;
-window.buscarAutobuses = buscarAutobuses;
-window.abrirPanelConfig = abrirPanelConfig;
-window.cerrarPanelConfig = cerrarPanelConfig;
-window.abrirAbout = abrirAbout;
-window.cerrarAbout = cerrarAbout;
-window.cerrarModalParadaMapa = cerrarModalParadaMapa;
+const alPulsar = (id, fn) =>
+  document.getElementById(id).addEventListener("click", fn);
 
-window.guardarPanelConfig = () => {
+alPulsar("btn-recentrar", recentrarUbicacion);
+alPulsar("btn-actualizar", buscarAutobuses);
+alPulsar("btn-abrir-config", abrirPanelConfig);
+alPulsar("btn-cancelar-config", cerrarPanelConfig);
+alPulsar("btn-abrir-about", abrirAbout);
+alPulsar("btn-cerrar-about", cerrarAbout);
+alPulsar("btn-cerrar-parada", cerrarModalParadaMapa);
+alPulsar("btn-guardar-config", () => {
   guardarPanelConfig();
   buscarAutobuses();
-};
+});
 
 window.addEventListener("load", () => {
   // Mostrar versión en el footer y lanzar la búsqueda

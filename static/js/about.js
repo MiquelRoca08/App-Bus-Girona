@@ -5,7 +5,7 @@ export async function abrirAbout() {
   const content = document.getElementById("about-content");
   const versionEl = document.getElementById("app-version");
 
-  modal.classList.remove("oculto");
+  if (!modal.open) modal.showModal();
 
   try {
     const resp = await fetch("/api/about");
@@ -29,7 +29,7 @@ export async function abrirAbout() {
 
 export function cerrarAbout() {
   const modal = document.getElementById("modal-about");
-  modal.classList.add("oculto");
+  modal.close();
 }
 
 

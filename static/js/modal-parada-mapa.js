@@ -25,7 +25,7 @@ export function cerrarModalParadaMapa() {
   const modal = elementoModal();
 
   if (modal) {
-    modal.classList.add("oculto");
+    modal.close();
   }
 
 }
@@ -48,7 +48,7 @@ export async function abrirModalParadaMapa(stopId) {
     <p class="status-text">Cargando horarios…</p>
   `;
 
-  modal.classList.remove("oculto");
+  if (!modal.open) modal.showModal();
 
   try {
 

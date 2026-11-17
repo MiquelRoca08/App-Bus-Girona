@@ -1,3 +1,20 @@
+    /* Colores por tema: el oscuro sigue la preferencia del sistema. */
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6f8; --surface: #ffffff; --fill: #e9ebef; --line: #f0f0f0; --field: #8b929e;
+      --text: #1a1a1a; --muted: #5b6472; --brand-text: #2563eb;
+      --ok-bg: #dcfce7; --ok: #166534; --info-bg: #eff6ff; --info-line: #dbeafe;
+      --err-bg: #fef2f2; --err-bg-hover: #fee2e2; --err-line: #fecaca; --err: #b91c1c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12151a; --surface: #1b1f26; --fill: #262b33; --line: #2a2f38; --field: #7a828f;
+        --text: #e8eaed; --muted: #a3acb9; --brand-text: #8ab4ff;
+        --ok-bg: #12301f; --ok: #86e0a8; --info-bg: #172338; --info-line: #24365a;
+        --err-bg: #2d1717; --err-bg-hover: #3a1c1c; --err-line: #5a2626; --err: #ff9a9a;
+      }
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -6,13 +23,13 @@
     }
 
     body {
-      background-color: #f4f6f8;
-      color: #333;
+      background-color: var(--bg);
+      color: var(--text);
       padding: 16px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      min-height: 100vh;
+      min-height: 100dvh;
     }
 
     .container {
@@ -28,7 +45,7 @@
 
     h1 {
       font-size: 1.5rem;
-      color: #1a1a1a;
+      color: var(--text);
     }
 
     /* =========================
@@ -43,7 +60,7 @@
       overflow: hidden;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       margin-bottom: 16px;
-      background-color: #e5e7eb;
+      background-color: var(--fill);
     }
 
     .btn-recenter {
@@ -52,7 +69,7 @@
       right: 10px;
       z-index: 1000;
 
-      background: #ffffff;
+      background: var(--surface);
       border: none;
       border-radius: 50%;
 
@@ -66,7 +83,7 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 
       cursor: pointer;
-      font-size: 16px;
+      font-size: 1rem;
 
       transition:
         transform 0.1s ease,
@@ -75,7 +92,7 @@
 
     .btn-recenter:active {
       transform: scale(0.92);
-      background-color: #f0f0f0;
+      background-color: var(--line);
     }
 
     .btn-config {
@@ -84,7 +101,7 @@
       right: 54px;
       z-index: 1000;
 
-      background: #ffffff;
+      background: var(--surface);
       border: none;
       border-radius: 50%;
 
@@ -98,7 +115,7 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 
       cursor: pointer;
-      font-size: 16px;
+      font-size: 1rem;
 
       transition:
         transform 0.1s ease,
@@ -107,33 +124,37 @@
 
     .btn-config:active {
       transform: scale(0.92);
-      background-color: #f0f0f0;
+      background-color: var(--line);
     }
 
     /* =========================
        MODAL DE CONFIGURACIÓN
        ========================= */
 
-    .modal {
-      position: fixed;
-      inset: 0;
-      z-index: 2000;
-
-      background: rgba(0, 0, 0, 0.4);
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
+    /* <dialog> nativo: ocupa la pantalla y centra .modal-contenido; el fondo lo pone ::backdrop. */
+    dialog.modal {
+      border: none;
+      background: transparent;
+      color: inherit;
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      max-height: none;
       padding: 16px;
     }
 
-    .modal.oculto {
-      display: none;
+    dialog.modal[open] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    dialog.modal::backdrop {
+      background: rgba(0, 0, 0, 0.4);
     }
 
     .modal-contenido {
-      background: #ffffff;
+      background: var(--surface);
       border-radius: 16px;
       padding: 24px;
 
@@ -146,13 +167,13 @@
     .modal-contenido h2 {
       font-size: 1.1rem;
       margin-bottom: 16px;
-      color: #1a1a1a;
+      color: var(--text);
     }
 
     .modal-contenido label {
       display: block;
       font-size: 0.85rem;
-      color: #555;
+      color: var(--muted);
       margin-top: 12px;
       margin-bottom: 4px;
     }
@@ -160,7 +181,7 @@
     .modal-contenido input[type="number"] {
       width: 100%;
       padding: 8px 10px;
-      border: 1px solid #d1d5db;
+      border: 1px solid var(--field);
       border-radius: 8px;
       font-size: 0.95rem;
     }
@@ -181,8 +202,8 @@
     }
 
     .btn-cancelar {
-      background: #e5e7eb;
-      color: #333;
+      background: var(--fill);
+      color: var(--text);
     }
 
     .btn-guardar {
@@ -196,7 +217,7 @@
 
     #modal-parada-mapa .modal-contenido {
       max-width: 400px;
-      max-height: 80vh;
+      max-height: 80dvh;
       overflow-y: auto;
       position: relative;
       padding-top: 40px;
@@ -213,8 +234,8 @@
       border: none;
       border-radius: 50%;
 
-      background: #f3f4f6;
-      color: #374151;
+      background: var(--fill);
+      color: var(--text);
 
       font-size: 1rem;
       line-height: 1;
@@ -226,7 +247,7 @@
     }
 
     .btn-cerrar-modal-parada:hover {
-      background: #e5e7eb;
+      background: var(--fill);
     }
 
     #modal-parada-mapa-contenido .parada-card {
@@ -250,7 +271,7 @@
        ========================= */
 
     .card {
-      background: #ffffff;
+      background: var(--surface);
       border-radius: 16px;
       padding: 20px;
 
@@ -261,12 +282,12 @@
 
     .status-text {
       font-size: 0.95rem;
-      color: #666;
+      color: var(--muted);
       text-align: center;
     }
 
     .error-text {
-      color: #dc2626;
+      color: var(--err);
     }
 
     /* =========================
@@ -274,7 +295,7 @@
        ========================= */
 
     .parada-header {
-      border-bottom: 2px solid #f0f0f0;
+      border-bottom: 2px solid var(--line);
       padding-bottom: 12px;
       margin-bottom: 12px;
     }
@@ -282,12 +303,12 @@
     .parada-nombre {
       font-size: 1.2rem;
       font-weight: 700;
-      color: #2c3e50;
+      color: var(--text);
     }
 
     .parada-distancia {
       font-size: 0.85rem;
-      color: #7f8c8d;
+      color: var(--muted);
       margin-top: 4px;
     }
 
@@ -310,13 +331,13 @@
     }
 
     .fuente-tiempo-real {
-      background-color: #dcfce7;
-      color: #166534;
+      background-color: var(--ok-bg);
+      color: var(--ok);
     }
 
     .fuente-programada {
-      background-color: #f1f5f9;
-      color: #475569;
+      background-color: var(--fill);
+      color: var(--muted);
     }
 
     /* =========================
@@ -330,7 +351,7 @@
 
       padding: 12px 0;
 
-      border-bottom: 1px solid #f7f7f7;
+      border-bottom: 1px solid var(--line);
 
       gap: 8px;
     }
@@ -358,7 +379,7 @@
 
       font-size: 0.95rem;
 
-      color: #334155;
+      color: var(--text);
 
       min-width: 0;
 
@@ -393,7 +414,7 @@
 
       font-size: 1.1rem;
 
-      color: #0f172a;
+      color: var(--text);
     }
 
     .bus-minutos {
@@ -403,9 +424,9 @@
 
       border-radius: 6px;
 
-      background-color: #dcfce7;
+      background-color: var(--ok-bg);
 
-      color: #166534;
+      color: var(--ok);
 
       font-size: 0.72rem;
 
@@ -419,7 +440,7 @@
 
       font-size: 0.68rem;
 
-      color: #94a3b8;
+      color: var(--muted);
 
       text-transform: capitalize;
     }
@@ -466,7 +487,7 @@
     .ultima-actualizacion {
       text-align: center;
       font-size: 0.75rem;
-      color: #9ca3af;
+      color: var(--muted);
       margin: 8px 0 0;
     }
 
@@ -489,7 +510,7 @@
       justify-content: space-between;
       align-items: center;
       font-size: 0.85rem;
-      color: #6b7280;
+      color: var(--muted);
       padding: 6px 4px;
     }
 
@@ -502,7 +523,7 @@
     .btn-about {
       background: transparent;
       border: none;
-      color: #2563eb;
+      color: var(--brand-text);
       cursor: pointer;
       font-weight: 600;
       text-decoration: none;
@@ -510,13 +531,12 @@
       align-items: center;
       gap: 6px;
       padding: 2px 4px;
+      min-height: 24px;
       line-height: 1;
     }
 
-    .btn-about:hover,
-    .btn-about:focus {
-      text-decoration: none;
-      outline: none;
+    .btn-about:hover {
+      text-decoration: underline;
     }
 
     .icon-github {
@@ -537,7 +557,7 @@
       gap: 8px;
       margin-top: 16px;
       padding-top: 12px;
-      border-top: 1px solid #f0f0f0;
+      border-top: 1px solid var(--line);
     }
 
     .link-oficial {
@@ -545,17 +565,17 @@
       text-align: center;
       font-size: 0.75rem;
       font-weight: 600;
-      color: #2563eb;
+      color: var(--brand-text);
       text-decoration: none;
       padding: 6px;
       border-radius: 6px;
-      background-color: #eff6ff;
+      background-color: var(--info-bg);
       transition: background-color 0.2s ease;
-      border: 1px solid #dbeafe;
+      border: 1px solid var(--info-line);
     }
 
     .link-oficial:hover {
-      background-color: #dbeafe;
+      background-color: var(--info-line);
       text-decoration: none;
     }
 
@@ -564,16 +584,85 @@
       text-align: center;
       font-size: 0.75rem;
       font-weight: 600;
-      color: #b91c1c;
+      color: var(--err);
       text-decoration: none;
       padding: 6px;
       border-radius: 6px;
-      background-color: #fef2f2;
+      background-color: var(--err-bg);
       transition: background-color 0.2s ease;
-      border: 1px solid #fecaca;
+      border: 1px solid var(--err-line);
     }
 
     .link-pdf:hover {
-      background-color: #fee2e2;
+      background-color: var(--err-bg-hover);
       text-decoration: none;
+    }
+
+    /* Foco de teclado visible en todos los controles */
+    :focus-visible {
+      outline: 2px solid var(--brand-text);
+      outline-offset: 2px;
+    }
+
+    h1,
+    h2 {
+      text-wrap: balance;
+    }
+
+    p,
+    li {
+      text-wrap: pretty;
+    }
+
+    .modal-contenido {
+      color: var(--text);
+    }
+
+    .modal-contenido input[type="number"] {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    /* En pantallas táctiles, objetivos de 44 px como mínimo */
+    @media (pointer: coarse) {
+      .btn-recenter,
+      .btn-config,
+      .btn-cerrar-modal-parada {
+        width: 44px;
+        height: 44px;
+      }
+
+      .btn-config {
+        right: 62px;
+      }
+
+      .btn-about,
+      .modal-botones button,
+      .modal-contenido input[type="number"],
+      .link-oficial,
+      .link-pdf {
+        min-height: 44px;
+      }
+
+      .link-oficial,
+      .link-pdf {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .icon-github {
+        filter: invert(1);
+      }
     }

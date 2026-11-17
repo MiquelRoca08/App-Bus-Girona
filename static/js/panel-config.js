@@ -27,7 +27,7 @@ export function abrirPanelConfig() {
   inputRadio.value = config.radio;
   inputMaxParadas.value = config.maxParadas;
 
-  modal.classList.remove("oculto");
+  modal.showModal();
 
 }
 
@@ -37,7 +37,7 @@ export function cerrarPanelConfig() {
   const modal =
     document.getElementById("modal-config");
 
-  modal.classList.add("oculto");
+  modal.close();
 
 }
 

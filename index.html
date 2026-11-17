@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
 
   <title>App Bus Girona</title>
   <link rel="icon" type="image/svg+xml" href="/static/assets/favicon.svg">
@@ -16,63 +17,15 @@
     Cache Storage residual (por si quedó algo de una versión anterior) y
     fuerza una recarga completa antes de que se ejecute código viejo.
   -->
-  <script>
-    (function () {
-      var STORAGE_KEY = "gbt:lastVersion";
-      var RELOAD_FLAG = "gbt:justReloaded";
-
-      function limpiarRastrosAntiguos() {
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.getRegistrations()
-            .then(function (regs) {
-              regs.forEach(function (reg) { reg.unregister(); });
-            })
-            .catch(function () {});
-        }
-        if (window.caches && caches.keys) {
-          caches.keys()
-            .then(function (keys) {
-              keys.forEach(function (key) { caches.delete(key); });
-            })
-            .catch(function () {});
-        }
-      }
-
-      fetch("/api/about", { cache: "no-store" })
-        .then(function (resp) { return resp.ok ? resp.json() : null; })
-        .then(function (data) {
-          if (!data || !data.version) return;
-
-          var versionActual = data.version;
-          var versionGuardada = localStorage.getItem(STORAGE_KEY);
-
-          if (versionGuardada && versionGuardada !== versionActual) {
-            limpiarRastrosAntiguos();
-            localStorage.setItem(STORAGE_KEY, versionActual);
-
-            // Evita bucles de recarga infinitos si algo va mal.
-            if (!sessionStorage.getItem(RELOAD_FLAG)) {
-              sessionStorage.setItem(RELOAD_FLAG, "1");
-              location.reload();
-              return;
-            }
-          } else {
-            localStorage.setItem(STORAGE_KEY, versionActual);
-          }
-
-          sessionStorage.removeItem(RELOAD_FLAG);
-        })
-        .catch(function () {
-          // Si falla la comprobación, no bloqueamos la carga de la app.
-        });
-    })();
-  </script>
+  <script src="/static/js/version-check.js"></script>
 
   <!-- CSS de Leaflet para el minimapa -->
 
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="anonymous"
   />
 
   <link rel="stylesheet" href="/static/styles.css">
@@ -81,7 +34,7 @@
 
 <body>
 
-  <div class="container">
+  <main class="container">
 
 <header>
   <h1>🚏 App Bus Girona</h1>
@@ -92,7 +45,7 @@
 
   <button
     class="btn-recenter"
-    onclick="recentrarUbicacion()"
+    type="button" id="btn-recentrar"
     title="Recentrar en mi ubicación"
     aria-label="Recentrar en mi ubicación"
   >
@@ -101,7 +54,7 @@
 
   <button
     class="btn-config"
-    onclick="abrirPanelConfig()"
+    type="button" id="btn-abrir-config"
     title="Configuración"
     aria-label="Configuración"
   >
@@ -111,11 +64,11 @@
 </div>
 
 <!-- Modal de configuración -->
-<div id="modal-config" class="modal oculto">
+<dialog id="modal-config" class="modal" closedby="any" aria-labelledby="titulo-config">
 
   <div class="modal-contenido">
 
-    <h2>Configuración</h2>
+    <h2 id="titulo-config">Configuración</h2>
 
     <label for="input-radio">
       Radio de búsqueda (metros) [10-2000]
@@ -143,14 +96,14 @@
 
       <button
         class="btn-cancelar"
-        onclick="cerrarPanelConfig()"
+        type="button" id="btn-cancelar-config"
       >
         Cancelar
       </button>
 
       <button
         class="btn-guardar"
-        onclick="guardarPanelConfig()"
+        type="button" id="btn-guardar-config"
       >
         Guardar
       </button>
@@ -159,16 +112,16 @@
 
   </div>
 
-</div>
+</dialog>
 
 <!-- Modal de horarios de una parada tocada en el mapa -->
-<div id="modal-parada-mapa" class="modal oculto">
+<dialog id="modal-parada-mapa" class="modal" closedby="any" aria-label="Horarios de la parada">
 
   <div class="modal-contenido">
 
     <button
       class="btn-cerrar-modal-parada"
-      onclick="cerrarModalParadaMapa()"
+      type="button" id="btn-cerrar-parada"
       title="Cerrar"
       aria-label="Cerrar"
     >
@@ -181,7 +134,7 @@
 
   </div>
 
-</div>
+</dialog>
 
 <!-- Contenido con horarios de la parada -->
 <div id="contenido" class="card">
@@ -193,9 +146,9 @@
 </div>
 
 <button
+  type="button"
   id="btn-actualizar"
   class="btn-actualizar"
-  onclick="buscarAutobuses()"
 >
   🔄 Actualizar Ubicación
 </button>
@@ -211,31 +164,31 @@
       <a class="btn-about" href="https://github.com/MiquelRoca08/Girona-Bus-Tracker" target="_blank" rel="noopener">
         <img class="icon-github" src="/static/assets/github.svg" alt="GitHub"> GitHub
       </a>
-      <button class="btn-about" onclick="abrirAbout()">About</button>
+      <button class="btn-about" type="button" id="btn-abrir-about">About</button>
     </div>
   </div>
 </footer>
 
-  </div>
+  </main>
 
   <!-- Librería JavaScript de Leaflet -->
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous" defer></script>
 
   <script type="module" src="/static/js/main.js"></script>
 
   <!-- Modal About -->
-  <div id="modal-about" class="modal oculto">
+  <dialog id="modal-about" class="modal" closedby="any" aria-labelledby="titulo-about">
     <div class="modal-contenido">
-      <h2>Acerca de</h2>
+      <h2 id="titulo-about">Acerca de</h2>
       <div id="about-content">
         <p>Cargando información…</p>
       </div>
       <div class="modal-botones">
-        <button class="btn-guardar" onclick="cerrarAbout()">Cerrar</button>
+        <button type="button" class="btn-guardar" id="btn-cerrar-about">Cerrar</button>
       </div>
     </div>
-  </div>
+  </dialog>
 
 </body>
 </html>
