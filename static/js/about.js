@@ -18,7 +18,7 @@ export async function abrirAbout() {
       <p><strong>Versión:</strong> ${escaparHTML(data.version)}</p>
       <p><strong>Paradas GTFS:</strong> ${escaparHTML(String(data.num_paradas))}</p>
       <p><strong>Rutas GTFS:</strong> ${escaparHTML(String(data.num_rutas))}</p>
-      <p><a href="https://github.com/MiquelRoca08/Girona-Bus-Tracker" target="_blank" rel="noopener">Repositorio en GitHub</a></p>
+      <p><a href="https://github.com/MiquelRoca08/App-Bus-Girona" target="_blank" rel="noopener">Repositorio en GitHub</a></p>
       `;
   } catch (err) {
     versionEl.textContent = `Versión: —`;
