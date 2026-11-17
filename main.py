@@ -1,3 +1,4 @@
+import secrets
 import os
 import time
 
@@ -79,7 +80,7 @@ SECURITY_HEADERS = {
     "X-Frame-Options": "DENY",
     "Permissions-Policy": "geolocation=(self), camera=(), microphone=()",
     "Content-Security-Policy": (
-        "default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' https://unpkg.com; "
+        "default-src 'self'; script-src 'self' https://unpkg.com {nonce}; style-src 'self' https://unpkg.com; "
         "img-src 'self' data: https://*.tile.openstreetmap.org https://unpkg.com; connect-src 'self'; "
         "object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'"
     ),
@@ -89,8 +90,10 @@ SECURITY_HEADERS = {
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
     response = await call_next(request)
+    # nonce por petición: Cloudflare lo reutiliza para su script de detección de bots
+    nonce = f"'nonce-{secrets.token_urlsafe(16)}'"
     for name, value in SECURITY_HEADERS.items():
-        response.headers.setdefault(name, value)
+        response.headers.setdefault(name, value.replace("{nonce}", nonce))
     return response
 
 
